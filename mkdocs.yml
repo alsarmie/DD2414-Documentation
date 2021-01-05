@@ -1,0 +1,16 @@
+site_name: DD2414 RPL Drone Design Project
+nav:
+    - Home: index.md
+    - About: about.md
+theme:
+  name: material
+  logo: img/drone.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Toggle mode
+    - scheme: slate
+      primary: white
+      accent: deep orange
+repo_url: https://github.com/alsarmie/KTH-CAS-UAV-DD2414.git
+repo_name: DD2414-PX4-11.2.0
