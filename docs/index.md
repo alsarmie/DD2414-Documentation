@@ -1,4 +1,4 @@
-# Welcome to MkLorum
+# Welcome to DD2414 Drone Design Project
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

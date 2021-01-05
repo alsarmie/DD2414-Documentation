@@ -1,7 +1,5 @@
 site_name: DD2414 RPL Drone Design Project
-nav:
-    - Home: index.md
-    - About: about.md
+
 theme:
   name: material
   logo: img/drone.png
@@ -14,3 +12,33 @@ theme:
       accent: deep orange
 repo_url: https://github.com/alsarmie/KTH-CAS-UAV-DD2414.git
 repo_name: DD2414-PX4-11.2.0
+
+nav:
+    - Home: index.md
+    - About: about.md
+    - User Guide:
+      - 'Build a drone.': guide/build_hardware.md
+      - 'Install the software.': guide/install_software.md
+      - 'Calibrate steering and throttle.': guide/calibrate.md
+      - 'Get flying.': guide/get_driving.md
+    - Parts:
+      - 'About': parts/about.md
+      - 'Actuators': parts/actuators.md
+      - 'Controllers': parts/controllers.md
+      - 'Keras': parts/keras.md
+      - 'Stores': parts/stores.md
+      - 'IMU': parts/imu.md
+      - 'OLED': parts/oled.md
+      - 'Voice Control': parts/voice_control.md
+      - 'Stop Sign Detection': parts/stop_sign_detection.md
+    - Utilities:
+      - 'donkey': utility/donkey.md
+    - Developer Guide:
+      - 'Create your own model': dev_guide/model.md
+
+    - Supported Cars: supported_cars.md
+    - Roll Your Own: roll_your_own.md
+    - Contribute: contribute.md
+    - Tests: tests.md
+    - Releases: release.md
+    - FAQ: faq.md
