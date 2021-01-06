@@ -1,17 +1,19 @@
-# Welcome to DD2414 Drone Design Project
+# Welcome to DD2414 Engineering project in Robotics, Perception and Learning
+---
+<kbd>
+  <img src="img/awesome_drone_hello_world.gif">
+</kbd>
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> Here you will find all the information related to the first iteration of DD2414.
 
-## Commands
+>The main objective of this course was to design and build a serviceable research drone platform tailored towards indoor navigation.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<kbd>
+  <img src="img/heavy_boy.jpg">
+</kbd>
+> *Heavy boy*
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Frequently used links
+  + [PX4 official site](https://docs.px4.io/master/en/flight_controller/pixhawk4.html)
+    + ![pinout.pdf](Pixhawk4-Pinouts.pdf)
