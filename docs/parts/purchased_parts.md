@@ -53,16 +53,20 @@ and exact parts may become unavailable.
 | ---------              | ---------                              | ---------- | --------   | ------------- |
 | Battery Voltage Alarm  | In Line Battery Voltage Alarm          |  84 SEK    | 1          | [Voltage Alarm](https://www.banggood.com/In-Line-Battery-Voltage-Alarm-with-LED-XT60-Plug-For-2-6s-Lipo-Battery-p-1177822.html?gmcCountry=SE&currency=SEK&createTmp=1&utm_source=googleshopping&utm_medium=cpc_union&utm_content=xibei&utm_campaign=xibei-ssc-se-all-0716&gclid=Cj0KCQjwtsv7BRCmARIsANu-CQd8WyIR64i91Yg7cU2ZQOLiWxwwMilk2XDveCLeTr-AbmSQR3E-rn4aAr1JEALw_wcB&cur_warehouse=CN) |
 | Hot Swap Board         | Y-PWR (5-30V, max. 2x 10A)             | 201 SEK    | 1          | [Y-PWR Hot Swap Board](https://www.cartft.com/en/catalog/il/1330) |
-| LiPo Battery           | 4S - 8500mAh - 50C LiPo                | 1,340 SEK  | 1          | [4s 8500mAh - 50C - Gens Ace XT90 LiPo](https://www.elefun.se/p/prod.aspx?v=49695) |
+| LiPo Battery           | 4S - 8500mAh - 50C LiPo  <sup>1</sup>  | 1,340 SEK  | 1          | [4s 8500mAh - 50C - Gens Ace XT90 LiPo](https://www.elefun.se/p/prod.aspx?v=49695) |
 | Boost Converter        | DC-DC 10-32V To 12-35V 150W Booster    | 59 SEK     | 1          | [Boost Converter](https://www.banggood.com/2Pcs-DC-DC-10-32V-To-12-35V-150W-Booster-Module-For-Laptop-Adapter-p-948153.html?gmcCountry=SE&currency=SEK&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=xibei&utm_campaign=xibei-ssc-se-en-ecs-0724&gclid=CjwKCAjw8MD7BRArEiwAGZsrBZ_ucC_BZepWcxMNf89zM9WKc2TAgvkuiYDC1v7J4TeG6H4Ztzin4BoCmJgQAvD_BwE&cur_warehouse=CN) |
 | PX4 power supply       | PX4 power supply (Buck Converter)      | 106 SEK    | 1          | [PX4 Power Module](https://www.amazon.com/Pixhawk4-PXFmini-Pixracer-Quadcopter-Connector/dp/B07PHRS4C4) |
 | Capacitor              |                                        |            |            |               |
 | FCU Power Switch       | FCU Power / Reboot Switch              |            |            |               |
-| XT60 Connectors        | XT60 Connectors (10 pack) <sup>1</sup> | 57 SEK     | 1          | [XT60 pack](https://www.amazon.com/MCIGICM-Female-Bullet-Connectors-Battery/dp/B07DVDKL42/ref=asc_df_B07DVDKL42/?tag=hyprod-20&linkCode=df0&hvadid=242124331408&hvpos=&hvnetw=g&hvrand=17600348725652844901&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-487616023903&psc=1) |
-| XT90 Connectors        | XT90 Connectors (5 pack) <sup>1</sup>  | 106 SEK    | 1          | [XT90 pack](https://www.amazon.com/Amass-Connector-Anti-Spark-Battery-Charger/dp/B074PTHZ3M/ref=asc_df_B074PTHZ3M/?tag=hyprod-20&linkCode=df0&hvadid=241976201237&hvpos=&hvnetw=g&hvrand=15813005595323829712&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-454617925652&psc=1) |
+| XT60 Connectors        | XT60 Connectors (10 pack) <sup>2</sup> | 57 SEK     | 1          | [XT60 pack](https://www.amazon.com/MCIGICM-Female-Bullet-Connectors-Battery/dp/B07DVDKL42/ref=asc_df_B07DVDKL42/?tag=hyprod-20&linkCode=df0&hvadid=242124331408&hvpos=&hvnetw=g&hvrand=17600348725652844901&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-487616023903&psc=1) |
+| XT90 Connectors        | XT90 Connectors (5 pack) <sup>2</sup>  | 106 SEK    | 1          | [XT90 pack](https://www.amazon.com/Amass-Connector-Anti-Spark-Battery-Charger/dp/B074PTHZ3M/ref=asc_df_B074PTHZ3M/?tag=hyprod-20&linkCode=df0&hvadid=241976201237&hvpos=&hvnetw=g&hvrand=15813005595323829712&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-454617925652&psc=1) |
 
 ### Notes
-1. Only 1 each of XT60 & XT90 connectors needed, but they are usually purchased in a pack.
+1. It does not have to be this exact battery, but it is important that:
+    1. The form factor is similar, esp. height and width (47mm x 42mm)
+    2. The battery is a 4 Cell (4S) LiPo
+    3. The discharge (C) rating can sustain ~100 A discharge
+2. Only 1 each of XT60 & XT90 connectors needed, but they are usually purchased in a pack.
 
 
 ## Propulsion
