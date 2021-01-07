@@ -9,7 +9,7 @@ are likely already be on hand.
 
 ## Parts Summary by System
 
-### Body
+### Body / Landing Gear
 | System             | Part Name                 | Part Description                          | Category   |
 | ------             | ---------                 | ---------                                 | ---------- |
 | Body               | Drone Frame               | 380mm Multirotor Quadcopter Frame         | Purchased  |
@@ -68,7 +68,11 @@ are likely already be on hand.
 | Propulsion         | 30A, 2S-4S ESC's          | 30A, 2S-4S Multirotor ESC's               | Purchased  |
 | Propulsion         | Propellers                | 8045 Propellers - 2x CW & 2x CCW          | Purchased  |
 | Propulsion         | Propeller Adapters        | 5mm (M5) prop adapters - 2x CW & 2x CCW   | Purchased  |
-| Propulsion         | Propeller Guards          |                                           |            |
+| Propulsion         | Propeller Guards          | Propeller Guards - 8045 props             | Either     |
+
+#### Notes
+1. There are two options for propeller guards. The purchased guards have proven to withstand more damage during collisions.
+
 
 ### Cabling
 
@@ -83,7 +87,7 @@ are likely already be on hand.
    * Zipties
      * Small
      * Large
-   * Screws (M3, M4, M5)
+   * Screws w/ nuts (M3, M4, M5)
    * Double sided sticky foam pads
    * ...
 
@@ -161,7 +165,7 @@ and exact parts may become unavailable.
 | 30A, 2S-4S ESC's       | 30A, 2S-4S Multirotor ESC's              | 86 SEK     | 12+ <sup>2,3</sup> | [30A, 4S ESC's](https://hobbyking.com/en_us/blheli-s-30a.html?utm_source=google&utm_medium=cpc&utm_campaign=google_us_shopping&countrycode=US&gclid=Cj0KCQiA3NX_BRDQARIsALA3fIKZ4hVcBt_OM8rsq9deMwhyn5tWA2MbVwPeuNdMDwFlwVMlrfD3hTUaAvgHEALw_wcB&gclsrc=aw.ds) |
 | Propellers             | 8045 Propellers - 2x CW & 2x CCW         | 32 SEK     | 10+ <sup>4</sup>   | [8045 CW & CCW Propellers](https://hobbyking.com/en_us/8x4-5-sf-propellers-std-and-reverse-rotation-black-4pcs.html?___store=en_us) |
 | Propeller Adapters     | 5mm (M5) prop adapters - 2x CW & 2x CCW  | 71 SEK     | 1                  | [M5 Prop Adapters](https://www.aliexpress.com/item/32811870942.html?spm=a2g0o.productlist.0.0.3e2a65f2dhOpjR&algo_pvid=514ee6fd-d665-467b-a778-3d5a8518a859&algo_expid=514ee6fd-d665-467b-a778-3d5a8518a859-0&btsid=0bb0623416018166608475111e42e9&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
-| Propeller Guards       |                                          |            |                    |               |
+| Propeller Guards       | Propeller Guards - 8045 props            |            | 8+ <sup>5</sup>    |               |
 
 #### Notes
  1. Purchase at least 5 motors in case one is damaged or fails (somewhat likely).
@@ -170,13 +174,27 @@ and exact parts may become unavailable.
     1. Technically the recommended motors can draw > 30 A, but shouldn't under the design conditions.
     2. Additionally, 40 A ESC's are excessively heavy and more expensive.
  4. Purchase around 10 packs of blades (4 per pack) as any collisions may result in damaged propellers that require replacement.
+ 5. Purchase at least 2 sets of propeller guards as any extreme collisions may result in damaged guards that require replacement.
 
 
 ## 3D Printed Parts Summary
-| Part Type    | Part Name             | Quantity | CAD Link |
-| ---------    | ---------             | -------- | ----     |
-| Landing Gear | Landing Gear Assembly | 4        |          |
 
-### Notes
-1. 
+The following 3D printed parts are required for constructing the drone as designed.
+Note that all links include the required .stl files for 3D printing, while some
+links will include .ipt (AutoDesk Inventor) files that can be improved / customized.
 
+If there are any access issues please contact Kyle Coble at [kwc57@cornell.edu](kwc57@cornell.edu).
+
+[Link to all CAD file folders](https://drive.google.com/drive/folders/1cGAwa-KiyMPA3GqdAuRivi8l1ZGf-k5G?usp=sharing)
+
+
+| System             | Part Type                 | Part Name                     | Quantity | CAD Link |
+| ------             | ---------                 | ---------                     | -------- | ----     |
+| Body               | Large Battery Adapter     | Large Battery Adapter         | 4        | [Large Battery Adapter ](https://drive.google.com/drive/folders/1uap2Yj39mSSUyjF8RAOGZAhPu2N2kLyg?usp=sharing) |
+| Landing Gear       | Landing Gear Assembly     | Landing Gear Assembly         | 4        | [Landing Gear Assembly ](https://drive.google.com/drive/folders/18POZlQbrHtJMRAQEIRWGYhrx_C7PdH1Q?usp=sharing) |
+| Flight Systems     | Sensor Plate              | Low Level Sensor Plate        | 1        | [Low Level Sensor Plate](https://drive.google.com/drive/folders/1gYHbsAsMWU1eWWXqgtkynMo1hv9yFUdo?usp=sharing) |
+| Companion Computer | NUC Mount                 | NUC Mount Assembly            | 1        | [NUC Mount Assembly    ](https://drive.google.com/drive/folders/1BV5lZG86zBsEEb_vWatxMujV6_MNMZNt?usp=sharing) |
+| Perception         | L515 Camera Mount         | L515 Camera Mount             | 1        | [L515 Camera Mount     ](https://drive.google.com/drive/folders/1u5H9TtVz9fjSNWXMWIMLbXnKLl3-7Bkz?usp=sharing) |
+| Power Supply       | Boost Converter Mount     | Boost Converter Mount         | 1        | [Boost Converter Mount ](https://drive.google.com/drive/folders/13RaEbpgpk8FFmrktdRqJVaby-_lfqt-y?usp=sharing) |
+| Power Supply       | Power Connector Holder    | Power Connector Holder        | 1        | [Power Connector Holder](https://drive.google.com/drive/folders/1f3mKzfqlhNqATIsFCsNNFlk3i8NtxnCB?usp=sharing) |
+| Propulsion         | Propeller Guards          | Propeller Guards - 8045 props | 4        | [Propeller Guards      ](https://drive.google.com/drive/folders/1s5grezjiT4flGRODpr2cLomOxQAkHWBo?usp=sharing) |
