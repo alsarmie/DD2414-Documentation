@@ -22,11 +22,15 @@ nav:
       - 'Calibrate steering and throttle.': guide/calibrate.md
       - 'Get flying.': guide/get_driving.md
     - Parts:
-      - 'Summary': parts/about.md
-      - 'Purchased Parts': parts/purchased_parts.md
-      - 'Printed Parts': parts/printed_parts.md
-      - 'Cabling': parts/cabling.md
+      - 'Summary':              parts/about.md
+      - 'Purchased Parts':      parts/purchased_parts.md
+      - 'Printed Parts':        parts/printed_parts.md
+      - 'Cabling':              parts/cabling.md
       - 'Hardware / Fasteners': parts/hardware.md
+    - Assembly:
+      - 'Summary':              assembly/about.md
+      - 'Frame':                assembly/frame.md
+      - 'Landing Gear':         assembly/landing_gear.md
 
     - Contribute: contribute.md
     - Tests: tests.md

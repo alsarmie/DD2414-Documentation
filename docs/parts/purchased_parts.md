@@ -46,6 +46,7 @@ and exact parts may become unavailable.
 | Intel NUC               | Intel® NUC 8 Pro Board - NUC8v7PNB   | 6,950 SEK  | 1          | [Intel NUC 8](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/boards/nuc8v7pnb.html) |
 | RealSense Lidar Camera  | RealSense L515                       | 2,866 SEK  | 1          | [RealSense L515](https://store.intelrealsense.com/buy-intel-realsense-lidar-camera-l515.html?_ga=2.143016189.994846934.1609904308-148542041.1609904308)   |
 | RealSense Stereo Camera | RealSense D435i                      | 1,638 SEK  | 2          | [RealSense D345i](https://store.intelrealsense.com/buy-intel-realsense-depth-camera-d435i.html?_ga=2.143016189.994846934.1609904308-148542041.1609904308) |
+| Camera Screws           |                                      |            |            |               |
 
 ## Power Supply
 | Part Name              | Part Description                       | Unit Price | Quantity   | Purchase Link |

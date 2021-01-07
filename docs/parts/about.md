@@ -41,6 +41,7 @@ are likely already be on hand.
 | Perception         | RealSense Lidar Camera    | RealSense L515                            | Purchased  |
 | Perception         | L515 Camera Mount         | L515 Camera Mount                         | 3D Printed |
 | Perception         | RealSense Stereo Camera   | RealSense D435i                           | Purchased  |
+| Perception         | Camera Screws             |                                           | Purchased  |
 
 #### Notes
 1. It is recommended to purchase the up-to-date, highest quality NUC model.
