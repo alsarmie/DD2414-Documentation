@@ -68,11 +68,11 @@ See the images below for an example of where/how the landing gear
 clips to the Q380 arms.
 
 <kbd>
-  <img src="../img/assembly/landing_gear_to_Q380-1.jpg">
+  <img src="../../img/assembly/landing_gear_to_Q380-1.jpg">
 </kbd>
 
 <kbd>
-  <img src="../img/assembly/landing_gear_to_Q380-2.jpg">
+  <img src="../../img/assembly/landing_gear_to_Q380-2.jpg">
 </kbd>
 
 Note that this is an example clip, not the actual clip on the main leg of the landing gear.
@@ -80,11 +80,11 @@ Note that this is an example clip, not the actual clip on the main leg of the la
 Use one of the large zip ties to secure the landing gear to the arm.
 The zip tie is fed through the slot under the clip portion of the main leg,
 and slides over the grooves along the top of the clip, as seen below:
-
+<p align="center">
 <kbd>
-  <img src="../img/assembly/landing_gear-ziptie.png">
+  <img src="../../img/assembly/landing_gear-ziptie.png">
 </kbd>
-
+</p>
 
 ### Final Assembly
 
