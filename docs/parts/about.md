@@ -15,7 +15,7 @@ are likely already be on hand.
 | Body               | Drone Frame               | 380mm Multirotor Quadcopter Frame         | Purchased  |
 | Body               | Large Battery Adapter     | Large Battery Adapter                     | 3D Printed |
 | Landing Gear       | Landing Gear Assembly     | Landing Gear Assembly                     | 3D Printed |
-| Landing Gear       | Landing Gear Magnets      |                                           | Purchased  |
+| Landing Gear       | Landing Gear Magnets      | 8mm x 3mm (1.3 kg force) magnets          | Purchased  |
 
 ### Flight Systems
 | System             | Part Name                 | Part Description                          | Category   |
@@ -41,11 +41,12 @@ are likely already be on hand.
 | Perception         | RealSense Lidar Camera    | RealSense L515                            | Purchased  |
 | Perception         | L515 Camera Mount         | L515 Camera Mount                         | 3D Printed |
 | Perception         | RealSense Stereo Camera   | RealSense D435i                           | Purchased  |
-| Perception         | Camera Screws             |                                           | Purchased  |
+| Perception         | Camera Screws             | 0.25" Camera Screw                        | Purchased  |
 
 #### Notes
 1. It is recommended to purchase the up-to-date, highest quality NUC model.
 2. The 3D printed NUC mount CAD file may need modifications if the footprint changes with newer models.
+   The mount was designed for a NUC8BEB model.
 
 ### Power Supply
 | System             | Part Name                 | Part Description                          | Category   |
@@ -87,7 +88,7 @@ are likely already be on hand.
 
    * Zipties
      * Small
-     * Large
+     * Large (e.g. 200mm x 4.6mm)
    * Screws w/ nuts (M3, M4, M5)
    * Double sided sticky foam pads
    * ...

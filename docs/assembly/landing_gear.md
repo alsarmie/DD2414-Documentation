@@ -4,7 +4,7 @@
 
   * 2x sets of 3D printed standard leg components
   * 2x sets of 3D printed D435i mount leg components
-  * 12x  [NdFeB magnets](https://www.magnordic.se/supermagneter-8x3-mm) of 8x3 mm (1.3 kg tensile force)
+  * 12x [NdFeB magnets](https://www.magnordic.se/supermagneter-8x3-mm) of 8x3 mm (1.3 kg tensile force)
   * 4x Large zip ties (e.g. 200mm x 4.6mm)
 
 ## Procedure

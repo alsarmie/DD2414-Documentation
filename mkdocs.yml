@@ -33,6 +33,9 @@ nav:
       - 'Printed Parts': parts/printed_parts.md
       - 'Cabling': parts/cabling.md
       - 'Hardware / Fasteners': parts/hardware.md
-
+    - Assembly:
+      - 'Summary':              assembly/about.md
+      - 'Frame':                assembly/frame.md
+      - 'Landing Gear':         assembly/landing_gear.md
     - Future Work: future_work.md
     - Tests: tests.md

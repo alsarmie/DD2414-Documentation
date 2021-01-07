@@ -19,7 +19,7 @@ and exact parts may become unavailable.
 | Part Name              | Part Description                      | Unit Price | Quantity          | Purchase Link |
 | ---------              | ---------                             | ---------- | --------          | ------------- |
 | Drone Frame            | 380mm Multirotor Quadcopter Frame     | 128 SEK    | 1                 | [Q380 Drone Frame](https://www.aliexpress.com/item/32416043953.html) |
-| Landing Gear Magnets   |                                       |            | 24+ <sup>1</sup>  |               |
+| Landing Gear Magnets   | 8mm x 3mm (1.3 kg force) magnets      | 18 SEK     | 24+ <sup>1</sup>  | [NdFeB magnets](https://www.magnordic.se/supermagneter-8x3-mm) |
 
 ### Notes
 1. 3 per leg are installed (12 total). It is worth ordering a full extra set as they are fragile.
@@ -46,7 +46,7 @@ and exact parts may become unavailable.
 | Intel NUC               | Intel® NUC 8 Pro Board - NUC8v7PNB   | 6,950 SEK  | 1          | [Intel NUC 8](https://www.intel.com/content/www/us/en/products/boards-kits/nuc/boards/nuc8v7pnb.html) |
 | RealSense Lidar Camera  | RealSense L515                       | 2,866 SEK  | 1          | [RealSense L515](https://store.intelrealsense.com/buy-intel-realsense-lidar-camera-l515.html?_ga=2.143016189.994846934.1609904308-148542041.1609904308)   |
 | RealSense Stereo Camera | RealSense D435i                      | 1,638 SEK  | 2          | [RealSense D345i](https://store.intelrealsense.com/buy-intel-realsense-depth-camera-d435i.html?_ga=2.143016189.994846934.1609904308-148542041.1609904308) |
-| Camera Screws           |                                      |            |            |               |
+| Camera Screws           | 0.25" Camera Screw                   | 17 SEK     | 3          | [1/4" Camera Screw](https://www.adafruit.com/product/2629?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v1_x7aWUlr6vcU8ogFAk9ehYY0D18Sr4mFYYqv4kFWFrby3n2GFF0GxoCr7sQAvD_BwE) |
 
 ## Power Supply
 | Part Name              | Part Description                       | Unit Price | Quantity   | Purchase Link |
