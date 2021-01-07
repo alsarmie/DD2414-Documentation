@@ -1,7 +1,7 @@
 # Welcome to DD2414 Engineering project in Robotics, Perception and Learning
 ---
 <kbd>
-  <img src="img/awesome_drone_hello_world.gif">
+  <img src="/img/awesome_drone_hello_world.gif">
 </kbd>
 ---
 
@@ -10,7 +10,7 @@
 >The main objective of this course was to design and build a serviceable research drone platform tailored towards indoor navigation.
 
 <kbd>
-  <img src="img/heavy_boy.jpg">
+  <img src="/img/heavy_boy.jpg">
 </kbd>
 
 > *Heavy boy*
@@ -23,7 +23,7 @@
     + [User Manual](https://terabee.b-cdn.net/wp-content/uploads/2019/12/User-Manual-for-TeraRanger-Evo-Mini-1.pdf)
 
   <kbd>
-    <img src="img/compatibility_teraranger.jpg">
+    <img src="/img/compatibility_teraranger.jpg">
   </kbd>
 
 
