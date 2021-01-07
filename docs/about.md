@@ -3,8 +3,11 @@ DD2414 Engineering project in Robotics, Perception and Learning
 ---
 > **Students:**
 
- * Luis Alejandro Sarmiento Gonzalez      [lasg@kth.se](lasg@kth.se)
- * Kyle Coble                             [coble@kth.se](coble@kth.se), [kwc57@cornell.edu](kwc57@cornell.edu)
+ * Luis Alejandro Sarmiento Gonzalez
+    > [lasg@kth.se](lasg@kth.se)  | [alejandro.sar.gon@gmail.com](alejandro.sar.gon@gmail.com)
+
+ * Kyle Coble       
+    > [coble@kth.se](coble@kth.se)| [kwc57@cornell.edu](kwc57@cornell.edu)
 
 
 > **Course responsible & supervisors:**
@@ -42,7 +45,7 @@ specifications and design goals.
 a problem in robotics, perception and learning.
 4. Be able to participate professionally in project work in activities in robotics, perception and
 learning.
-####Secondary ILO:
+#### Secondary ILO:
 1. Implement and integrate a number of important tools and technologies used in robotics.
 2. Be able to assess the value of, and to a suitable extent utilize, existing solutions as a part of a
 robotics project.
