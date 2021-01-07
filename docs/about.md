@@ -4,9 +4,11 @@ DD2414 Engineering project in Robotics, Perception and Learning
 > **Students:**
 
  * Luis Alejandro Sarmiento Gonzalez
+
     > [lasg@kth.se](lasg@kth.se)  | [alejandro.sar.gon@gmail.com](alejandro.sar.gon@gmail.com)
 
  * Kyle Coble       
+
     > [coble@kth.se](coble@kth.se)| [kwc57@cornell.edu](kwc57@cornell.edu)
 
 
