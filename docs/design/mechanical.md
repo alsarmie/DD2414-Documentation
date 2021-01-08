@@ -61,7 +61,7 @@ Starting with the frame, we decided upon a X body, as it is symmetric (pitch & r
 | Drone Occupancy Diameter | 584      ||
 | Clearance                | 124      ||
 
-To determine the type of motors and justify the use of 8" propellers, we took an estimate of the total mass that the drone had to lift, taking the following considerations:
+To determine the type of motors and size of the propellers, we took an estimate of the total mass that the drone had to lift, taking the following considerations:
 
 | Expected Mass Calculations - Fully Loaded |||
 | ----------------------------------------- |||
@@ -105,3 +105,13 @@ According to SunnySky [datasheet](https://sunnyskyusa.com/collections/x-v3-motor
 <kbd>
   <img src="../../img/sunnysky.png">
 </kbd>  
+
+
+For the actual drone frame, we chose the [Q380](https://www.rcnhobby.com/se/hmf-totem-q380-380mm-fpv-4-axel-mini-quadcopter-frame-kit.html) X frame due to the following useful features:
+  + Complies with the 380-400 mm wheelbase size requirement
+  + Glass filled nylon arms for increased strength and durability
+  + Lightweight arm design
+  + Integrated PDB for easy wiring and tidy installation
+  + Increased internal space for additional electronics/equipment
+  + Additional mounting holes for frame upgrades
+  + Arguably the arm design allows for better CG

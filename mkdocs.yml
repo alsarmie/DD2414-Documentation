@@ -1,5 +1,8 @@
 site_name: DD2414 RPL Autum 2020
-
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 theme:
   name: material
   logo: img/drone.png
@@ -33,9 +36,6 @@ nav:
       - 'Printed Parts': parts/printed_parts.md
       - 'Cabling': parts/cabling.md
       - 'Hardware / Fasteners': parts/hardware.md
-    - Assembly:
-      - 'Summary':              assembly/about.md
-      - 'Frame':                assembly/frame.md
-      - 'Landing Gear':         assembly/landing_gear.md
+
     - Future Work: future_work.md
-    - Tests: tests.md
+    - Weekly Updates & Tests: tests.md
