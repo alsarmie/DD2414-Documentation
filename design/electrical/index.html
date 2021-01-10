@@ -59,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#electrical-design-considerations" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -342,9 +347,36 @@
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Electrical design
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Electrical design
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-design-considerations" class="md-nav__link">
+    Electrical design considerations.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -494,6 +526,35 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#electrical-design-considerations" class="md-nav__link">
+    Electrical design considerations.
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -506,7 +567,68 @@
                 
                   <h1>Electrical design</h1>
                 
-                
+                <h2 id="electrical-design-considerations">Electrical design considerations.</h2>
+<hr />
+<p>As stated previously, the aim of the project was to improve previous versions of the research drones. The reported issues with the previous platforms are:</p>
+<blockquote>
+<p>Hexacopter:</p>
+</blockquote>
+<ul>
+<li>Burnt motors, high pitch noise.</li>
+</ul>
+<blockquote>
+<p>Quadcopter:</p>
+</blockquote>
+<ul>
+<li>NUC power disruption on takeoff or power surge.</li>
+<li>No current sensor.</li>
+<li>Two PDBs used.</li>
+</ul>
+<p>Taking these considerations, the electrical diagram/design is the following:</p>
+<p><kbd>
+  <img src="../../img/circuit.png">
+</kbd>  </p>
+<ol>
+<li>The Q380 bottom plate was used as the PDB, this simplifies the cabling and saves space.</li>
+<li>
+<p>We decided to keep the <a href="https://www.mini-box.com/Y-PWR-Hot-Swap-Load-Sharing-Controller">Y-PWR</a> hot-swap load sharing controller, as it acts as an ideal OR to alternate between battery power and wall power.</p>
+</li>
+<li>
+<p>The 2200uF capacitor was selected according to recommended values for drones, to filter ripples, spikes and noise from the LiPo battery ( produced by quickly varying voltages, current and frequencies demanded by the circuit), the aim is to provide a more stable output. This capacitor can also provide voltage for a brief instance if there is a sharp voltage drop or power surge, such as drone take off.</p>
+</li>
+<li>
+<p>Given the fact that the payload of the drone was expected to be at most 2.5 kg, the ideal motor needed to be a low KV (Rpm per volt) motor. The advantage of a low KV motor is that it produces more torque ( hence a bigger propeller can be used), thus generates more static thrust for lifting at a lower current draw compared to higher KV motors. The downside is that the motors are not as fast as higher KV mototrs, however this is desired for the end applicaiton.</p>
+</li>
+<li>
+<p>According to the SunnySky <a href="https://sunnyskyusa.com/collections/x-v3-motors/products/sunnysky-x2216">datasheet</a>, the motors will draw a maximum of 36.2 A each if the thrust generated is 1.37 kg. However, as the thrust required to lift the drone (hovering) will never reach that value, the average draw will at most be 20 Amps. Hence, 30 A ESC were selected, these have proven to work properly with our setup.</p>
+</li>
+</ol>
+<p><kbd>
+  <img src="../../img/sunnysky.png">
+</kbd>  </p>
+<ol>
+<li>
+<p>To properly calibrate the ESC, so that the controller knows the maximum and minimum PWM values that can be provided, we employed a function generator. ESC calibration may vary between different brands, however, for the selected ESC, the following method works:</p>
+<ul>
+<li>Generate a 5V pulse train with a frequency of 50Hz.</li>
+<li>Set the Duty Cycle to 5%.</li>
+<li>Connect the function generator output to the ESC PWM wires.</li>
+<li>Connect the battery to the drone.</li>
+<li>Set the function generator output to ON. You should hear a tone with 2 or 3 beeps.</li>
+<li>After the tones, increase the Duty Cycle to 10%, a number of beeps will be heard, followed by an intermittent tone, which will indicate that the calibration process is done.</li>
+<li>Alternatively, you can use <a href="https://docs.px4.io/v1.10/en/advanced_config/esc_calibration.html">QgroundControl</a></li>
+</ul>
+</li>
+<li>
+<p>To power the NUC and the PX4 controller, DC/DC converters were selected. Despite the fact that the NUC could be operated directly from the LiPo battery as the input voltage ranges from 12V to 19V, it is not desirable. Voltage dips and transients can damage or affect the NUC operation. E.g. at take off, a voltage sag may result from the power surge demanded by motors and turn off the NUC (voltage lower than 12 V). For this reason, a 150W DC/DC Boost converter was selected to deliver a maximum constant 17 V to the NUC, despite changes in the input voltage.
+For the PX4, a Buck converter was used to deliver continuous 5 V to the controller. The same selection criteria applies for the controller.</p>
+</li>
+<li>
+<p>The power module that is connected right after the battery is mainly used to provide the current and voltage sensor readings to the PX4, however, the actual voltage to power the PX4, comes from the 5V Buck converter after the Y-PWR board. This achieves the following:</p>
+</li>
+<li>The PX4 switch is used to turn ON/OFF the controller and the V/A sensor reading.</li>
+<li>If the PX4 gets powered by the NUC (USB), the switch enables/disables the V/A reading (as a second safety measure, the drone will not arm).</li>
+</ol>
                 
               
               
