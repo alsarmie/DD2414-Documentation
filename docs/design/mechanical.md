@@ -108,6 +108,7 @@ According to SunnySky [datasheet](https://sunnyskyusa.com/collections/x-v3-motor
 
 
 For the actual drone frame, we chose the [Q380](https://www.rcnhobby.com/se/hmf-totem-q380-380mm-fpv-4-axel-mini-quadcopter-frame-kit.html) X frame due to the following useful features:
+
   + Complies with the 380-400 mm wheelbase size requirement
   + Glass filled nylon arms for increased strength and durability
   + Lightweight arm design

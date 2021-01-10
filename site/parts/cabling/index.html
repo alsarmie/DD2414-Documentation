@@ -308,11 +308,92 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" >
     
     <label class="md-nav__link" for="nav-4">
+      Assembly
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Assembly" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Assembly
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../assembly/about/" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../assembly/frame/" class="md-nav__link">
+      Frame
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../assembly/landing_gear/" class="md-nav__link">
+      Landing Gear
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../assembly/sensor_plate.md" class="md-nav__link">
+      Sensor Plate
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" >
+    
+    <label class="md-nav__link" for="nav-5">
       Design
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Design" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
+      <label class="md-nav__title" for="nav-5">
         <span class="md-nav__icon md-icon"></span>
         Design
       </label>
@@ -375,14 +456,14 @@
   <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
-    <label class="md-nav__link" for="nav-5">
+    <label class="md-nav__link" for="nav-6">
       Parts
       <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Parts" data-md-level="1">
-      <label class="md-nav__title" for="nav-5">
+      <label class="md-nav__title" for="nav-6">
         <span class="md-nav__icon md-icon"></span>
         Parts
       </label>
@@ -443,9 +524,59 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Cabling
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" class="md-nav__link md-nav__link--active">
       Cabling
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pmw3901-cable" class="md-nav__link">
+    PMW3901 cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teraranger-evo-mini-cable" class="md-nav__link">
+    Teraranger EVO mini cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp8266-cable" class="md-nav__link">
+    ESP8266 cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arm-button-cable" class="md-nav__link">
+    Arm button cable
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -512,6 +643,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pmw3901-cable" class="md-nav__link">
+    PMW3901 cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teraranger-evo-mini-cable" class="md-nav__link">
+    Teraranger EVO mini cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esp8266-cable" class="md-nav__link">
+    ESP8266 cable
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arm-button-cable" class="md-nav__link">
+    Arm button cable
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -528,7 +695,47 @@
                 
                 
                 <h1 id="cabling-summary">Cabling Summary</h1>
-<p><strong>TO DO</strong></p>
+<p align="center">
+<kbd>
+  <img src="../../img/PX4.png" alt="drawing" width="200">
+</kbd>
+</p>
+
+<p>The PX4 FMU v5 requires some custom cables to interact with the sensors. Here you will find the necessary information to replicate such cables.</p>
+<hr />
+<h3 id="pmw3901-cable">PMW3901 cable</h3>
+<p>The PX4 has 1 SPI port with the following pinout.Pixhawk SPI connector is JST-GH 7 pins.</p>
+<p><kbd>
+  <img src="../../img/SPI.png" alt="drawing" width="200">
+</kbd></p>
+<p><kbd>
+  <img src="../../img/pmw3901.svg">
+</kbd></p>
+<hr />
+<h3 id="teraranger-evo-mini-cable">Teraranger EVO mini cable</h3>
+<p>From the official documentation, you require to wire the Teraranger like <a href="https://www.terabee.com/connection-to-pixhawk-autopilots-teraranger-evo/">this</a>.</p>
+<p>The PX4 FMU v5 has two I2C ports, you are interested in the port A. Pixhawk I2C connector is JST-GH 4 pins.</p>
+<p><kbd>
+  <img src="../../img/I2C.png" alt="drawing" width="200">
+</kbd></p>
+<hr />
+<h3 id="esp8266-cable">ESP8266 cable</h3>
+<p>The PX4 FMU v5 has 2 telemetry ports. Telemetry 2 is the port to connect the ESP8266. The connector is a  JST-GH 6 pins.</p>
+<p><kbd>
+  <img src="../../img/ESP8266.png" alt="drawing" width="200">
+</kbd></p>
+<p><kbd>
+  <img src="../../img/ESP8266_wire.png">
+</kbd></p>
+<hr />
+<h3 id="arm-button-cable">Arm button cable</h3>
+<p>The PX4 FMU v5 has 1 GPS port, this port has the pins needed for the arm button. The connector is a JST-GH 10 pins.</p>
+<p><kbd>
+  <img src="../../img/GPS.png" alt="drawing" width="200">
+</kbd></p>
+<p><kbd>
+  <img src="../../img/arm_button.svg">
+</kbd></p>
                 
               
               
