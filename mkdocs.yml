@@ -26,6 +26,12 @@ nav:
       - 'Install the software.': guide/install_software.md
       - 'Calibrate steering and throttle.': guide/calibrate.md
       - 'Get flying.': guide/get_driving.md
+    - Assembly:
+      - 'About': assembly/about.md
+      - 'Frame': assembly/frame.md
+      - 'Landing Gear': assembly/landing_gear.md
+      - 'Sensor Plate': assembly/sensor_plate.md
+
     - Design:
       - 'Mechanical design': design/mechanical.md
       - 'Electrical design': design/electrical.md
