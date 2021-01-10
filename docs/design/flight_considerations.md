@@ -2,6 +2,36 @@
 ---
 For the drone to be useful for indoor navigation a long flight time (within reason) is desired. For this project, the aim was to achieve a ~10 minute flight with the following considerations were estimated:
 
+The expected flight time is determined by a simple formula:
+
+<kbd>
+  <img src="../../img/flighteq.svg">
+</kbd>  
+
+where,
+
+*t<sub>flight</sub>* is the flight time of your drone in minutes;
+
+*Q* is the LiPo battery capacity in mAh;
+
+*I<sub>flying load</sub>* is the current drawn from the battery by the motors and other equipment assuming the selected flying load, which is based on the type of flying and the weight of the drone.
+
+The maximum current drawn from the battery at full flying load *I<sub>max</sub>* full load is determined as
+
+*I<sub>max full load</sub> = I<sub>other</sub> + I<sub>motor</sub> * N<sub>motor</sub>*
+
+where
+
+*I<sub>other</sub>* is the maximum current in amps drawn by various multicopter equipment excluding its motors;
+
+*I<sub>other</sub>* is the maximum current in amps drawn by a single motor;
+
+*N<sub>motors</sub>* is the number of motors.
+
+The maximum power consumed by the drone W<sub>max</sub> is defined as
+
+*W<sub>max</sub>= I<sub>max full load</sub> * V<sub>bat nominal</sub>*
+
 With 4000mAh LiPo battery:
 
  + Expected weight of ~2 kg.

@@ -19,6 +19,9 @@
   + [PX4 Official Site](https://docs.px4.io/master/en/flight_controller/pixhawk4.html)
     + [Pixhawk 4 Pinout](http://www.holybro.com/manual/Pixhawk4-Pinouts.pdf)
     + [Technical Data Sheet](https://github.com/PX4/px4_user_guide/raw/master/assets/flight_controller/pixhawk4/pixhawk4_technical_data_sheet.pdf)
+  + [PX4 Flight Analysis Tool](https://logs.px4.io/)
+  + [QGround Control](https://docs.qgroundcontrol.com/master/en/)
+
   + [Teraranger Evo Mini](https://www.terabee.com/shop/lidar-tof-range-finders/teraranger-evo-mini/)
     + [User Manual](https://terabee.b-cdn.net/wp-content/uploads/2019/12/User-Manual-for-TeraRanger-Evo-Mini-1.pdf)
 
