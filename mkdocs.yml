@@ -18,7 +18,9 @@ repo_name: DD2414-PX4-11.2.0
 
 nav:
     - Home: index.md
+
     - About: about.md
+
     - User Guide:
       # Assembly
       - 'Build a drone.': guide/build_hardware.md
@@ -26,6 +28,7 @@ nav:
       - 'Install the software.': guide/install_software.md
       - 'Calibrate steering and throttle.': guide/calibrate.md
       - 'Get flying.': guide/get_driving.md
+
     - Assembly:
       - 'About': assembly/about.md
       - 'Frame': assembly/frame.md
@@ -36,6 +39,7 @@ nav:
       - 'Mechanical design': design/mechanical.md
       - 'Electrical design': design/electrical.md
       - 'Flight time considerations': design/flight_considerations.md
+
     - Parts:
       - 'Summary': parts/about.md
       - 'Purchased Parts': parts/purchased_parts.md
@@ -43,5 +47,9 @@ nav:
       - 'Cabling': parts/cabling.md
       - 'Hardware / Fasteners': parts/hardware.md
 
+    - Setup:
+      - 'Radio': setup/radio_setup.md
+
     - Future Work: future_work.md
+
     - Weekly Updates & Tests: tests.md
