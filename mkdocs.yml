@@ -50,6 +50,7 @@ nav:
     - Setup:
       - 'Radio': setup/radio_setup.md
       - 'Flight Modes': setup/flight_modes.md
+      - 'MAVROS': setup/mavros_setup.md
 
     - Future Work: future_work.md
 
