@@ -53,6 +53,11 @@ nav:
       - 'MAVROS': setup/mavros_setup.md
       - 'MoCap System': setup/mocap_setup.md
 
+    - Flying:
+      - 'Flight Safety': flying/flight_safety.md
+      - 'Flight Procedure': flying/flight_procedure.md
+      - 'Flight Reporting': flying/flight_reporting.md
+
     - Future Work: future_work.md
 
     - Weekly Updates & Tests: tests.md

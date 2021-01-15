@@ -56,7 +56,8 @@ These are all added to `/ROMFS/px4fmu_common/init.d/rcS` in our version of
 [PX4 firmware](https://github.com/alsarmie/KTH-CAS-UAV-DD2414/),
 so it runs on Pixhawk boot.
 If you are not running our version, you will need to change them
-in QGroundControl every time the Pixhawk boots.
+in QGroundControl every time the Pixhawk boots or make changes like
+those we have made to  `/ROMFS/px4fmu_common/init.d/rcS`.
 
 The commands to change these message rates include, but are not limited to:
 
