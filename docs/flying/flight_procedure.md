@@ -3,8 +3,8 @@
 **TO DO: Add correct launch commands**
 
 
- 1. Review Safety Instructions
- 2. Review Safety Instructions again
+ 1. Review [Flight Safety](/flying/flight_safety/) instructions
+ 2. Review [Flight Safety](/flying/flight_safety/) instructions again
  3. Set your QGroundControl parameter selections
     1. Especially `EKF2_HGT_MODE` (see [PX4 Parameter Reference](https://dev.px4.io/en/advanced/parameter_reference.html))
         1. Set value to `2` for using TeraRanger distance sensor readings directly for z-axis position measurements
@@ -24,7 +24,7 @@
  9. Begin recording a ROSBAG of all relevant topics
     1. `rosbag record ____`
  10. Arm the drone with the [Arming Gesture](https://docs.px4.io/master/en/advanced_config/prearm_arm_disarm.html#arming-gesture)
-    1. Requires that the mode switch is set to Manual Mode (should be `[SA]` if you followed our Flight Modes setup instructions)
+    1. Requires that the mode switch is set to Manual Mode (should be `[SA]` if you followed our [Flight Modes](/setup/flight_modes/) setup instructions)
     2. The Taranis X9D Plus is a Mode 2 transmitter (should be default)
  11. Visually verify all propellers are spinning
  12. Takeoff in Manual Mode by pushing the left throttle stick up towards a max of ~ 50% until you are ~ 1 m above ground
@@ -39,4 +39,4 @@
  16. Switch to Manual Mode (`[SA]` up) and disarm with the disarming gesture
  17. Stop ROS nodes, ROSBAG recording, and external video recording
  18. Enter the flying cage (with full PPE) and fully disarm the pre-arming button
- 19. Proceed to Flight Reporting instructions
+ 19. Proceed to [Flight Reporting](/flying/flight_reporting/) instructions
