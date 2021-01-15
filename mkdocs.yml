@@ -41,11 +41,11 @@ nav:
       - 'Flight time considerations': design/flight_considerations.md
 
     - Parts:
-      - 'Summary': parts/about.md
+      - 'Summary': parts/summary.md
       - 'Purchased Parts': parts/purchased_parts.md
       - 'Printed Parts': parts/printed_parts.md
       - 'Cabling': parts/cabling.md
-      - 'Hardware / Fasteners': parts/hardware.md
+      - 'Fasteners': parts/fasteners.md
 
     - Setup:
       - 'Radio': setup/radio_setup.md
