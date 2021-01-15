@@ -14,7 +14,7 @@
     
     
       
-        <title>Hardware / Fasteners - DD2414 RPL Autum 2020</title>
+        <title>MAVROS - DD2414 RPL Autum 2020</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hardware-fasteners-summary" class="md-skip">
+        <a href="#mavros-setup" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Hardware / Fasteners
+              MAVROS
             
           </span>
         </div>
@@ -449,14 +449,12 @@
       
 
 
-  
-
 
   
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
     
     <label class="md-nav__link" for="nav-6">
       Parts
@@ -477,7 +475,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../about/" class="md-nav__link">
+    <a href="../../parts/about/" class="md-nav__link">
       Summary
     </a>
   </li>
@@ -490,7 +488,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../purchased_parts/" class="md-nav__link">
+    <a href="../../parts/purchased_parts/" class="md-nav__link">
       Purchased Parts
     </a>
   </li>
@@ -503,7 +501,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../printed_parts/" class="md-nav__link">
+    <a href="../../parts/printed_parts/" class="md-nav__link">
       Printed Parts
     </a>
   </li>
@@ -516,7 +514,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cabling/" class="md-nav__link">
+    <a href="../../parts/cabling/" class="md-nav__link">
       Cabling
     </a>
   </li>
@@ -527,20 +525,11 @@
           
 
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../parts/hardware/" class="md-nav__link">
       Hardware / Fasteners
     </a>
-    
   </li>
 
         
@@ -554,12 +543,14 @@
       
 
 
+  
+
 
   
-  <li class="md-nav__item md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" >
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
     
     <label class="md-nav__link" for="nav-7">
       Setup
@@ -580,7 +571,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../setup/radio_setup/" class="md-nav__link">
+    <a href="../radio_setup/" class="md-nav__link">
       Radio
     </a>
   </li>
@@ -593,7 +584,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../setup/flight_modes/" class="md-nav__link">
+    <a href="../flight_modes/" class="md-nav__link">
       Flight Modes
     </a>
   </li>
@@ -604,11 +595,83 @@
           
 
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../setup/mavros_setup/" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MAVROS
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       MAVROS
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rpl-mavros-wrappers" class="md-nav__link">
+    RPL MAVROS Wrappers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mavros-links" class="md-nav__link">
+    MAVROS Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-installation" class="md-nav__link">
+    Initial Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Initial Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-the-installation" class="md-nav__link">
+    Test the Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-rate-adjustment" class="md-nav__link">
+    Message Rate Adjustment
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -619,7 +682,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../setup/mocap_setup/" class="md-nav__link">
+    <a href="../mocap_setup/" class="md-nav__link">
       MoCap System
     </a>
   </li>
@@ -674,6 +737,55 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rpl-mavros-wrappers" class="md-nav__link">
+    RPL MAVROS Wrappers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mavros-links" class="md-nav__link">
+    MAVROS Links
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-installation" class="md-nav__link">
+    Initial Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Initial Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-the-installation" class="md-nav__link">
+    Test the Installation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-rate-adjustment" class="md-nav__link">
+    Message Rate Adjustment
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -684,13 +796,64 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/alsarmie/KTH-CAS-UAV-DD2414.git/edit/master/docs/parts/hardware.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/alsarmie/KTH-CAS-UAV-DD2414.git/edit/master/docs/setup/mavros_setup.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="hardware-fasteners-summary">Hardware / Fasteners Summary</h1>
-<p><strong>TO DO</strong></p>
+                <h1 id="mavros-setup">MAVROS Setup</h1>
+<h2 id="rpl-mavros-wrappers">RPL MAVROS Wrappers</h2>
+<p><strong>TO DO:</strong>
+<strong>Need to push/link our RPL repo from the NUC and provide some usage instructions</strong></p>
+<p>Then move this section further down on this page.</p>
+<h2 id="mavros-links">MAVROS Links</h2>
+<p>MAVROS usage is well documented and your priority should be to follow
+the official links / resources, especially as functionalities are updated.</p>
+<ul>
+<li><a href="https://dev.px4.io/master/en/ros/mavros_installation.html">PX4 MAVROS</a></li>
+<li><a href="https://github.com/mavlink/mavros/tree/master/mavros">MAVROS Github</a></li>
+<li><a href="http://wiki.ros.org/mavros">MAVROS ROS Wiki</a></li>
+</ul>
+<h2 id="initial-installation">Initial Installation</h2>
+<p>On the drone's companion computer (the NUC), install the ROS Noetic version of
+MAVROS, per the Binary installation instructions at
+<a href="https://github.com/mavlink/mavros/tree/master/mavros#binary-installation-deb">MAVROS Binary Installation</a>.
+At the time of writing this, the installation instructions are for ROS Kinetic,
+but the NUC should be running Ubuntu 20.04, so instead install the Noetic version with:</p>
+<p><code>sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras</code></p>
+<p>and follow the instructions for dependency installation.</p>
+<h3 id="test-the-installation">Test the Installation</h3>
+<p>With the Pixhawk connected to the NUC, you should be able to
+test for successful installation by launching:</p>
+<p><code>roslaunch mavros px4.launch fcu_url:=/dev/ttyUSB0:57600</code></p>
+<p>Or, if reading from the microUSB port on the Pixhawk:</p>
+<p><code>roslaunch mavros px4.launch fcu_url:=/dev/ttyACM0:57600</code></p>
+<p>And listen to some relevant topics, e.g.:</p>
+<ul>
+<li><code>rostopic echo /mavros/local_position/pose</code></li>
+<li><code>rostopic echo /mavros/distance_sensor/hrlv_ez4_pub</code></li>
+<li><code>rostopic echo /mavros/px4flow/raw/optical_flow_rad</code></li>
+</ul>
+<h2 id="message-rate-adjustment">Message Rate Adjustment</h2>
+<p>It was necessary to change the rates at which messages come in.
+These are all added to <code>/ROMFS/px4fmu_common/init.d/rcS</code> in our version of
+<a href="https://github.com/alsarmie/KTH-CAS-UAV-DD2414/">PX4 firmware</a>,
+so it runs on Pixhawk boot.
+If you are not running our version, you will need to change them
+in QGroundControl every time the Pixhawk boots.</p>
+<p>The commands to change these message rates include, but are not limited to:</p>
+<ul>
+<li><code>mavlink stream -r 500 -s POSITION_TARGET_LOCAL_NED -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s LOCAL_POSITION_NED -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s GLOBAL_POSITION_INT -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s ATTITUDE -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s ATTITUDE_QUATERNION -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s ATTITUDE_TARGET -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s SERVO_OUTPUT_RAW_0 -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s RC_CHANNELS -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s OPTICAL_FLOW_RAD -d /dev/ttyS1</code></li>
+<li><code>mavlink stream -r 500 -s DISTANCE_SENSOR -d /dev/ttyS1</code></li>
+</ul>
                 
               
               
@@ -709,7 +872,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../cabling/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../flight_modes/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -718,19 +881,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Cabling
+                Flight Modes
               </div>
             </div>
           </a>
         
         
-          <a href="../../setup/radio_setup/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../mocap_setup/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Radio
+                MoCap System
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
