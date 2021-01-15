@@ -13,7 +13,7 @@ theme:
     - scheme: slate
       primary: white
       accent: deep orange
-repo_url: https://github.com/alsarmie/KTH-CAS-UAV-DD2414.git
+repo_url: https://github.com/alsarm/PX4-Autopilot.git
 repo_name: DD2414-PX4-11.2.0
 
 nav:
