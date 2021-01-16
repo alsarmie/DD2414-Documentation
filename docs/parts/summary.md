@@ -71,6 +71,7 @@ are likely already be on hand.
 | Propulsion         | Propellers                | 8045 Propellers - 2x CW & 2x CCW          | Purchased  |
 | Propulsion         | Propeller Adapters        | 5mm (M5) prop adapters - 2x CW & 2x CCW   | Purchased  |
 | Propulsion         | Propeller Guards          | Propeller Guards - 8045 props             | Either     |
+| Propulsion         | Bullet Connectors         |                                           | Purchased  |
 
 #### Notes
 1. There are two options for propeller guards. The purchased guards have proven to withstand more damage during collisions.

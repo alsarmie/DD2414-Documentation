@@ -75,8 +75,9 @@ and exact parts may become unavailable.
 | Motors                 | SunnySky X2216 V3 - 1250kV - short shaft | 187 SEK    | 6+ <sup>1</sup>    | [SunnySky V3 X2216 Motors](https://sunnyskyusa.com/products/sunnysky-x2216?variant=27868073394270) |
 | 30A, 2S-4S ESC's       | 30A, 2S-4S Multirotor ESC's              | 86 SEK     | 12+ <sup>2,3</sup> | [30A, 4S ESC's](https://hobbyking.com/en_us/blheli-s-30a.html?utm_source=google&utm_medium=cpc&utm_campaign=google_us_shopping&countrycode=US&gclid=Cj0KCQiA3NX_BRDQARIsALA3fIKZ4hVcBt_OM8rsq9deMwhyn5tWA2MbVwPeuNdMDwFlwVMlrfD3hTUaAvgHEALw_wcB&gclsrc=aw.ds) |
 | Propellers             | 8045 Propellers - 2x CW & 2x CCW         | 32 SEK     | 10+ <sup>4</sup>   | [8045 CW & CCW Propellers](https://hobbyking.com/en_us/8x4-5-sf-propellers-std-and-reverse-rotation-black-4pcs.html?___store=en_us) |
-| Propeller Adapters     | 5mm (M5) prop adapters - 2x CW & 2x CCW  | 71 SEK     | 1                  | [M5 Prop Adapters](https://www.aliexpress.com/item/32811870942.html?spm=a2g0o.productlist.0.0.3e2a65f2dhOpjR&algo_pvid=514ee6fd-d665-467b-a778-3d5a8518a859&algo_expid=514ee6fd-d665-467b-a778-3d5a8518a859-0&btsid=0bb0623416018166608475111e42e9&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
+| Propeller Adapters     | 5mm (M5) prop adapters kit - 2x CW & 2x CCW  | 71 SEK     | 1                  | [M5 Prop Adapters](https://www.aliexpress.com/item/32811870942.html?spm=a2g0o.productlist.0.0.3e2a65f2dhOpjR&algo_pvid=514ee6fd-d665-467b-a778-3d5a8518a859&algo_expid=514ee6fd-d665-467b-a778-3d5a8518a859-0&btsid=0bb0623416018166608475111e42e9&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | Propeller Guards       | Propeller Guards - 8045 props            |            | 8+ <sup>5</sup>    |               |
+| Bullet Connectors      | ____ size                                |            | 1 Pack             |               |
 
 ### Notes
  1. Purchase at least 5 motors in case one is damaged or fails (somewhat likely).

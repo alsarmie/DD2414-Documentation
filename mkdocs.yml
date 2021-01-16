@@ -32,6 +32,7 @@ nav:
     - Assembly:
       - 'About': assembly/about.md
       - 'Frame': assembly/frame.md
+      - 'Propulsion': assembly/propulsion.md
       - 'Landing Gear': assembly/landing_gear.md
       - 'Sensor Plate': assembly/sensor_plate.md
       - 'Peripherals': assembly/peripherals.md

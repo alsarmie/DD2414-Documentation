@@ -64,6 +64,10 @@ Recommended setting changes for these parts include:
 #### Assembly
 
   1. Connect the drone frame arms to the lower plate, per instructions in the kit.
+     1. Have the side with the centered power terminals on the bottom.
+        <kbd>
+          <img src="../../img/assembly/bottom_plate_underside.jpg">
+        </kbd>
   2. Attach the bottom of 3D printed adapters to top of Q380 arms with M2.5x12 screws.
      1. Have the screw openings in the printed components facing out.
      2. Stick small screwdriver through top hole to access bottom screw.
