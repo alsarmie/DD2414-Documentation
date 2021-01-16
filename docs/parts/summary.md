@@ -74,3 +74,13 @@ are likely already be on hand.
 
 #### Notes
 1. There are two options for propeller guards. The purchased guards have proven to withstand more damage during collisions.
+
+
+## Cabling
+
+See details in [Cabling Summary](/parts/cabling/).
+
+
+## Fasteners
+
+See details in [Fasteners Summary](/parts/fasteners/).

@@ -1,6 +1,6 @@
 # Fasteners Summary
 
-There are some specific fasteners (i.e. hardware) that will be required for assembly
+There are some specific fastener sizes that will be required for assembly
 of this quadrotor as designed.
 
 In general, it is recommended to have a decent stock

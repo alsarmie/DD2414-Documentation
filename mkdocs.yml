@@ -34,6 +34,7 @@ nav:
       - 'Frame': assembly/frame.md
       - 'Landing Gear': assembly/landing_gear.md
       - 'Sensor Plate': assembly/sensor_plate.md
+      - 'Peripherals': assembly/peripherals.md
 
     - Design:
       - 'Mechanical design': design/mechanical.md

@@ -58,7 +58,11 @@ Just be sure that the magnet will be correctly oriented before using any glue.
 
 ### Mounting to Q380 Arm
 
-Find the right spot on the Q380 arm (as on the images below) and carefully
+The two legs with the small platforms for the RealSense D435i stereo cameras
+should face towards the front of the drone, and the two without should be in
+the back of the drone.
+
+To install them, find the right spot on the Q380 arm (as on the images below) and carefully
 push the clip of the main leg onto the arm of the Q380 quadrotor frame.
 Note that the longer side of the V in the top of the clip points goes towards
 the center of the drone frame and that the pyramidal supports of the clip slide

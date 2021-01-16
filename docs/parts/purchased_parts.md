@@ -86,3 +86,16 @@ and exact parts may become unavailable.
     2. Additionally, 40 A ESC's are excessively heavy and more expensive.
  4. Purchase around 10 packs of blades (4 per pack) as any collisions may result in damaged propellers that require replacement.
  5. Purchase at least 2 sets of propeller guards as any extreme collisions may result in damaged guards that require replacement.
+
+
+## Cabling
+
+See details in [Cabling Summary](/parts/cabling/).
+
+
+
+## Fasteners
+
+See details in [Fasteners Summary](/parts/fasteners/).
+
+Note that specific purchase links are not provided since these are very general components.
