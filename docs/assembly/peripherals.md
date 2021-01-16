@@ -31,12 +31,15 @@ This includes:
 --
 
  * 3x 0.25" Camera Screws
- * ___ Hardware
- * ___ Hardware
- * ___ Hardware
- * ___ Hardware
- * ___ Cable (power to boost converter)
- * ___ Cable (boost convert -> NUC barrel jack)
+ * 4x ___ Hardware (Boost converter -> NUC mount)
+   * w/ nut
+ * 3x ___ Hardware (NUC mount -> Q380)
+   * w/ washer & nut
+ * 4x ___ Hardware (Long NUC Mount screws)
+   * w/ nut
+ * 1x Cable with barrel jack (~5 cm loose wire)
+ * 2x ____ Cables (hot swap board to boost converter)
+ * 4x 2mm Bullet (Banana) connectors (male)
  * 1x USB-C to USB-C Cable
  * 2x USB-C to USB Cable
 
@@ -109,7 +112,7 @@ at the back and the boost converter would be at the front.
  5. The NUC is powered by a barrel jack coming straight out of the boost converter
     1. You need ~ 5cm from the barrel jack to the loose wire ends that are fed into the boost converter.
        This could need to be longer if you are including a TX2, as mentioned above.
-    2. It is convenient to have ___ connectors on the loose wire ends for a better connection into
+    2. It is convenient to have 2mm male bullet (banana) connectors on the loose wire ends for a better connection into
        all the boost converter ports (power-in from hot swap board as well)
  6. Insert the power-in cables to the correct ports and feed the wires
     through the NUC mount top, so they will come out at the front near the hot swap board, as seen above

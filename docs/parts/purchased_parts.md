@@ -77,7 +77,7 @@ and exact parts may become unavailable.
 | Propellers             | 8045 Propellers - 2x CW & 2x CCW         | 32 SEK     | 10+ <sup>4</sup>   | [8045 CW & CCW Propellers](https://hobbyking.com/en_us/8x4-5-sf-propellers-std-and-reverse-rotation-black-4pcs.html?___store=en_us) |
 | Propeller Adapters     | 5mm (M5) prop adapters kit - 2x CW & 2x CCW  | 71 SEK     | 1                  | [M5 Prop Adapters](https://www.aliexpress.com/item/32811870942.html?spm=a2g0o.productlist.0.0.3e2a65f2dhOpjR&algo_pvid=514ee6fd-d665-467b-a778-3d5a8518a859&algo_expid=514ee6fd-d665-467b-a778-3d5a8518a859-0&btsid=0bb0623416018166608475111e42e9&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) |
 | Propeller Guards       | Propeller Guards - 8045 props            |            | 8+ <sup>5</sup>    |               |
-| Bullet Connectors      | ____ size                                |            | 1 Pack             |               |
+| Bullet Connectors      | Bullet Connectors - (2mm/3.5mm/4mm)      | 151 SEK    | 1 Pack             | [Bullet Connector Pack](https://www.amazon.com/100PCS-Female-Banana-Connector-Battery/dp/B07TXD6CSF/ref=asc_df_B07TXD6CSF/?tag=hyprod-20&linkCode=df0&hvadid=380153593433&hvpos=&hvnetw=g&hvrand=6536633666068146857&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-820377954132&psc=1&tag=&ref=&adgrpid=77085942909&hvpone=&hvptwo=&hvadid=380153593433&hvpos=&hvnetw=g&hvrand=6536633666068146857&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031214&hvtargid=pla-820377954132) |
 
 ### Notes
  1. Purchase at least 5 motors in case one is damaged or fails (somewhat likely).
