@@ -930,12 +930,12 @@ test for successful installation by launching:</p>
 </ul>
 <h2 id="message-rate-adjustment">Message Rate Adjustment</h2>
 <p>It was necessary to change the rates at which messages come in.
-These are all added to <code>/ROMFS/px4fmu_common/init.d/rcS</code> in our version of
+These are all added to <code>/ROMFS/px4fmu_common/init.d-posix/rcS</code> in our version of
 <a href="https://github.com/alsarm/PX4-Autopilot">PX4 firmware</a>,
 so it runs on Pixhawk boot.
 If you are not running our version, you will need to change them
 in QGroundControl every time the Pixhawk boots or make changes like
-those we have made to  <code>/ROMFS/px4fmu_common/init.d/rcS</code>.</p>
+those we have made to  <code>/ROMFS/px4fmu_common/init.d-posix/rcS</code>.</p>
 <p>The commands to change these message rates include, but are not limited to:</p>
 <ul>
 <li><code>mavlink stream -r 500 -s POSITION_TARGET_LOCAL_NED -d /dev/ttyS1</code></li>

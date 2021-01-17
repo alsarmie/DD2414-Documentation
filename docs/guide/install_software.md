@@ -67,4 +67,10 @@ If you are prompted regarding some files not being in the recommended version, t
 
 To install QGroundControl, please refer to the very comprehensive guide provided by [them](https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html)
 
- 
+---
+
+### Debugging FMU
+
+It may be useful to debug the PX4 via the NSH terminal. For that reason, you can use a FTDI cable to connect to the debug port, as described [here](https://docs.px4.io/master/en/flight_controller/snapdragon_flight_advanced.html#over-ftdi).
+
+You can check how to connect the FTDI cable to the PX4 [here](/parts/cabling/).

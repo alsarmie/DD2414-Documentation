@@ -15,14 +15,14 @@
     1. You must be wearing PPE (gloves, safety glasses, ear muffs).
     2. Prearming is done with the pre-arming button.
  6. Launch all necessary ROS nodes
-    1. `roslaunch ______`
+    1. `roslaunch rpl uav.launch`
  7. Verify the TeraRanger distance sensor is actively reporting
     distance values either through MAVROS or in QGroundControl
     (unless using alternative z-axis position source)
     1. If not, repeat the reboot/prearm procedure until it is.
  8. Begin recording video of flight with an external camera (w/ a view of the flight area)
- 9. Begin recording a ROSBAG of all relevant topics
-    1. `rosbag record ____`
+ 9. Begin recording a rosbag of point cloud data (by default, there is a rosbag being recorded with all relevant topics -mavros and tf- when launching the uav.launch file )
+    1. `rosbag record --lz4 -O cameras_outside_net.b_2ag /tf /tf_static /l515/depth/color/points  /d435_r/depth/color/points /d435_l/depth/color/points`
  10. Arm the drone with the [Arming Gesture](https://docs.px4.io/master/en/advanced_config/prearm_arm_disarm.html#arming-gesture)
     1. Requires that the mode switch is set to Manual Mode (should be `[SA]` if you followed our [Flight Modes](/setup/flight_modes/) setup instructions)
     2. The Taranis X9D Plus is a Mode 2 transmitter (should be default)
