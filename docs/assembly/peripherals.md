@@ -31,14 +31,11 @@ This includes:
 --
 
  * 3x 0.25" Camera Screws
- * 4x ___ Hardware (Boost converter -> NUC mount)
-   * w/ nut
- * 3x ___ Hardware (NUC mount -> Q380)
-   * w/ washer & nut
- * 4x ___ Hardware (Long NUC Mount screws)
-   * w/ nut
+ * 4x M3 x 12mm screws (w/ nuts)
+ * 3x M3 x 10mm screws (w/ washers & nuts)
+ * 4x M3 x 32mm screws (w/ nuts)
  * 1x Cable with barrel jack (~5 cm loose wire)
- * 2x ____ Cables (hot swap board to boost converter)
+ * 2x wires ~ 10 cm long
  * 4x 2mm Bullet (Banana) connectors (male)
  * 1x USB-C to USB-C Cable
  * 2x USB-C to USB Cable
@@ -106,16 +103,23 @@ at the back and the boost converter would be at the front.
  2. Line up the boost converter with the furthest back set of mounting holes, such that
     the wire ports face towards the open (left) side of the NUC mount.
  3. Insert a nut into each of the 4 corresponding nut slots in the underside of the NUC mount top
- 4. Use four ____ screws to secure the boost converter from its top side,
+ 4. Use four M3 x 12mm screws to secure the boost converter from its top side,
     through the boost converter mount, through the NUC mount top, and secured
-    into the nut slot on the underside of the NUC mount top
+    into the nut slot on the underside of the NUC mount top.
+    1. Make sure the screws are not hitting the top of the NUC when the mount is set on it.
+       If they are, use shorter screws
  5. The NUC is powered by a barrel jack coming straight out of the boost converter
     1. You need ~ 5cm from the barrel jack to the loose wire ends that are fed into the boost converter.
        This could need to be longer if you are including a TX2, as mentioned above.
     2. It is convenient to have 2mm male bullet (banana) connectors on the loose wire ends for a better connection into
        all the boost converter ports (power-in from hot swap board as well)
- 6. Insert the power-in cables to the correct ports and feed the wires
-    through the NUC mount top, so they will come out at the front near the hot swap board, as seen above
+ 6. Insert the power-in cables (the two ~10 cm wires) to the correct ports and feed the wires
+    through the NUC mount top, so they will come out at the front near
+    the hot swap board, as seen above
+    1. We found it convenient to split the wire with 2mm bullet
+       connectors near where they are thread through the NUC mount,
+       so it is easier to disconnect them from the hot swap board.
+       This isn't necessary, but could be nice.
 
 
 You should now have the boost converter secured to the top of the NUC
@@ -130,7 +134,7 @@ mount and can treat them as one component while mounting the NUC.
 
  1. Mount the NUC mount bottom to the top plate of the Q380 drone frame, with the
     open side of the mount pointed to the left hand side of the drone, using the
-    ____ screws, with a washer under the head and a nut under the Q380 top plate.
+    M3 x 10mm screws, with a washer under the head and a nut under the Q380 top plate.
     1. This is easier done without the top plate mounted to the rest of the frame,
        but can be done with the top plate already mounted.
     2. The three screw locations seen below are the locations you must use.
@@ -172,7 +176,7 @@ When mounting the marker balls, consider:
  3. Set the NUC top mount (with boost converter attached) on top of the NUC,
     lining up the open side of the mount on the top and bottom components.
  4. One corner at a time, push a nut into the nut slot in the underside of the
-    NUC mount bottom and drop a _____ screw into the corresponding hole in the NUC mount top.
+    NUC mount bottom and drop a M3 x 32mm screw into the corresponding hole in the NUC mount top.
     Tighten the screw until it grips the nut so it won't come loose, but do not crank it tight yet.
  5. Once all four corners are secured, gently tighten them a little at a time.
     Do not over tighten, as you could crack the 3D printed NUC mount.

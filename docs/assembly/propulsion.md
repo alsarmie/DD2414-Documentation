@@ -9,9 +9,9 @@
     * 2x CW & 2x CCW
   * 1x 5mm (M5) prop adapters kit
     * 2x CW & 2x CCW
-  * 16x ____ Screws
-  * 12x ____ mm bullet connectors (female)
-  * 8x small zip ties
+  * 16x M3 x 14mm screws
+  * 12x 3.5 mm bullet connectors (female)
+  * 8x small zip ties (e.g. 100mm x 2.5mm)
 
 ## Procedure
 
@@ -27,7 +27,7 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
 
 ### ESC
 
- 1. The SunnySky motors we are using come equipped with _____ mm bullet connectors (male).
+ 1. The SunnySky motors we are using come equipped with 3.5 mm bullet connectors (male).
     You will need to solder the female bullet connectors onto the 3 loose wires
     coming out of the ESC and insulate them with some thermal shrink fit.
 
@@ -73,7 +73,7 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
     the two outermost screws will need to go through the guard
     to hold it in place. Place it between the top of the
     arm and the bottom of the motor and line up the holes.
- 3. Mount the motors with the the ____ screws onto the drone
+ 3. Mount the motors with the the M3 x 14mm screws onto the drone
     arms with the wires running straight back along the arm,
     as seen above
     1. MAKE SURE THE SCREWS ARE NOT CONTACTING THE MOTOR WINDINGS!
