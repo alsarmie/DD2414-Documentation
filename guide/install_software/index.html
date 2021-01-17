@@ -14,7 +14,7 @@
     
     
       
-        <title>Hardware / Fasteners - DD2414 RPL Autum 2020</title>
+        <title>Install the software. - DD2414 RPL Autum 2020</title>
       
     
     
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#hardware-fasteners-summary" class="md-skip">
+        <a href="#px4-software-installation-and-build" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Hardware / Fasteners
+              Install the software.
             
           </span>
         </div>
@@ -219,12 +219,14 @@
       
 
 
+  
+
 
   
-  <li class="md-nav__item md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       User Guide
@@ -245,7 +247,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../guide/build_hardware.md" class="md-nav__link">
+    <a href="../build_hardware.md" class="md-nav__link">
       Build a drone.
     </a>
   </li>
@@ -256,11 +258,52 @@
           
 
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../guide/install_software.md" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Install the software.
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
       Install the software.
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#px4-software-installation-and-build" class="md-nav__link">
+    PX4 Software installation and build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qgroundcontrol-install" class="md-nav__link">
+    QGroundControl Install
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -271,7 +314,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../guide/calibrate.md" class="md-nav__link">
+    <a href="../calibrate.md" class="md-nav__link">
       Calibrate steering and throttle.
     </a>
   </li>
@@ -284,7 +327,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../guide/get_driving.md" class="md-nav__link">
+    <a href="../get_driving.md" class="md-nav__link">
       Get flying.
     </a>
   </li>
@@ -352,6 +395,19 @@
 
 
   <li class="md-nav__item">
+    <a href="../../assembly/propulsion/" class="md-nav__link">
+      Propulsion
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
     <a href="../../assembly/landing_gear/" class="md-nav__link">
       Landing Gear
     </a>
@@ -365,8 +421,21 @@
 
 
   <li class="md-nav__item">
-    <a href="../../assembly/sensor_plate.md" class="md-nav__link">
+    <a href="../../assembly/sensor_plate/" class="md-nav__link">
       Sensor Plate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../assembly/peripherals/" class="md-nav__link">
+      Peripherals
     </a>
   </li>
 
@@ -449,14 +518,12 @@
       
 
 
-  
-
 
   
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" >
     
     <label class="md-nav__link" for="nav-6">
       Parts
@@ -477,7 +544,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../about/" class="md-nav__link">
+    <a href="../../parts/summary/" class="md-nav__link">
       Summary
     </a>
   </li>
@@ -490,7 +557,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../purchased_parts/" class="md-nav__link">
+    <a href="../../parts/purchased_parts/" class="md-nav__link">
       Purchased Parts
     </a>
   </li>
@@ -503,7 +570,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../printed_parts/" class="md-nav__link">
+    <a href="../../parts/printed_parts/" class="md-nav__link">
       Printed Parts
     </a>
   </li>
@@ -516,7 +583,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../cabling/" class="md-nav__link">
+    <a href="../../parts/cabling/" class="md-nav__link">
       Cabling
     </a>
   </li>
@@ -527,20 +594,11 @@
           
 
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
-      Hardware / Fasteners
+  <li class="md-nav__item">
+    <a href="../../parts/fasteners/" class="md-nav__link">
+      Fasteners
     </a>
-    
   </li>
 
         
@@ -739,8 +797,28 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#px4-software-installation-and-build" class="md-nav__link">
+    PX4 Software installation and build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qgroundcontrol-install" class="md-nav__link">
+    QGroundControl Install
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -752,13 +830,50 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/alsarm/PX4-Autopilot.git/edit/master/docs/parts/hardware.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/alsarm/PX4-Autopilot.git/edit/master/docs/guide/install_software.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="hardware-fasteners-summary">Hardware / Fasteners Summary</h1>
-<p><strong>TO DO</strong></p>
+                  <h1>Install the software.</h1>
+                
+                <h3 id="px4-software-installation-and-build">PX4 Software installation and build</h3>
+<hr />
+<p>The software version we are using for the current drone is based on release 1.11.2. You can clone the repo <a href="https://github.com/alsarm/PX4-Autopilot.git">here</a>.</p>
+<p>Make sure to update your system before.</p>
+<pre><code class="language-bash">$ sudo apt-get update &amp;&amp; upgrade
+</code></pre>
+<p>Install ninja build:</p>
+<pre><code class="language-bash">$ sudo apt-get install -y ninja-build
+</code></pre>
+<p>In the folder of preference, run the following :</p>
+<pre><code class="language-bash">$ git clone https://github.com/alsarm/PX4-Autopilot.git
+</code></pre>
+<p>Navigate inside the repo into the 'Tools' folder:</p>
+<pre><code class="language-bash">$ cd PX4-Autopilot/Tools/setup
+</code></pre>
+<p>Execute the 'ubuntu.sh' script, this will take some minutes to complete:</p>
+<pre><code class="language-bash">$ ./ubuntu.sh
+</code></pre>
+<p>If installation fails, you may need to check the Ubuntu Software tab in Software &amp; Updates to verify that you have Community-maintained source checked.</p>
+<p>To compile  the software, you will need to have an ARM GNU compiler version &lt;9.3.1. Version 7.3.1 works pretty well. The setup script from previous step will install the compiler at</p>
+<pre><code class="language-bash">~/opt/gcc-arm-none-eabi-9-2020-q2-update
+</code></pre>
+<p>The easiest way to use version 7.3.1 is to download the corresponding files from <a href="https://developer.arm.com/-/media/Files/downloads/gnu-rm/7-2018q2/gcc-arm-none-eabi-7-2018-q2-update-linux.tar.bz2?revision=bc2c96c0-14b5-4bb4-9f18-bceb4050fee7?product=GNU%20Arm%20Embedded%20Toolchain,64-bit,,Linux,7-2018-q2-update">here</a>. Uncompress the .tar file and move it to '~/opt/' , then change the name of the folder to 'gcc-arm-none-eabi-9-2020-q2-update' (just remember to back up the previous folder). Other methods to setup the compiler could be through symbolic links.</p>
+<p>Once the script finishes, you can check everything works by compiling the software. But before, you need to change to the 'release/1.11' branch:</p>
+<pre><code class="language-bash">~PX4-Autopilot$git checkout release/1.11
+Branch 'release/1.11' set up to track remote branch 'release/1.11' from 'origin'.
+Switched to a new branch 'release/1.11'
+
+~PX4-Autopilot$make px4_fmu-v5_default
+</code></pre>
+<p>Alternatively you can directly upload to the PX4 by adding the option 'upload'</p>
+<pre><code class="language-bash">~PX4-Autopilot$make px4_fmu-v5_default upload
+</code></pre>
+<p>If you are prompted regarding some files not being in the recommended version, type 'y' and continue with the build.</p>
+<hr />
+<h3 id="qgroundcontrol-install">QGroundControl Install</h3>
+<p>To install QGroundControl, please refer to the very comprehensive guide provided by <a href="https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html">them</a></p>
                 
               
               
@@ -777,7 +892,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../cabling/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../about/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -786,19 +901,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Cabling
+                About
               </div>
             </div>
           </a>
         
         
-          <a href="../../setup/radio_setup/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../assembly/about/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Radio
+                About
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
