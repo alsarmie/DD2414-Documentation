@@ -1,3 +1,7 @@
 # Flight Safety
+---
+It is always important to follow these rules!
 
-**TO DO: Add safety bullet points**
+<kbd>
+  <img src="../../img/flying/safety_rules.png">
+</kbd>

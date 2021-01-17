@@ -52,12 +52,12 @@ And listen to some relevant topics, e.g.:
 ## Message Rate Adjustment
 
 It was necessary to change the rates at which messages come in.
-These are all added to `/ROMFS/px4fmu_common/init.d/rcS` in our version of
+These are all added to `/ROMFS/px4fmu_common/init.d-posix/rcS` in our version of
 [PX4 firmware](https://github.com/alsarm/PX4-Autopilot),
 so it runs on Pixhawk boot.
 If you are not running our version, you will need to change them
 in QGroundControl every time the Pixhawk boots or make changes like
-those we have made to  `/ROMFS/px4fmu_common/init.d/rcS`.
+those we have made to  `/ROMFS/px4fmu_common/init.d-posix/rcS`.
 
 The commands to change these message rates include, but are not limited to:
 
