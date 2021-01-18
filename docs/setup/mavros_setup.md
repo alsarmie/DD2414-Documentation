@@ -1,14 +1,5 @@
 # MAVROS Setup
 
-
-## RPL MAVROS Wrappers
-
-**TO DO:**
-**Need to push/link our RPL repo from the NUC and provide some usage instructions**
-
-Then move this section further down on this page.
-
-
 ## MAVROS Links
 
 MAVROS usage is well documented and your priority should be to follow
@@ -50,8 +41,12 @@ And listen to some relevant topics, e.g.:
 
 
 ## Message Rate Adjustment
+**NOTE: Only follow this section if attempting to use the FTDI cable to connect the Pixhawk to the NUC.
+See [PX4 Companion Computer Hardware Setup](https://docs.px4.io/master/en/companion_computer/pixhawk_companion.html#hardware-setup).
+If flying with usb, change the [`CBRK_USB_CHK`](https://docs.px4.io/master/en/advanced_config/parameter_reference.html#CBRK_USB_CHK) parameter to `197848` and you can use the microUSB port on the Pixhawk 4 to connect to the NUC.**
 
-It was necessary to change the rates at which messages come in.
+When using the FTDI cable,
+it was necessary to change the rates at which messages come in.
 These are all added to `/ROMFS/px4fmu_common/init.d-posix/rcS` in our version of
 [PX4 firmware](https://github.com/alsarm/PX4-Autopilot),
 so it runs on Pixhawk boot.
@@ -71,3 +66,18 @@ The commands to change these message rates include, but are not limited to:
  * `mavlink stream -r 500 -s RC_CHANNELS -d /dev/ttyS1`
  * `mavlink stream -r 500 -s OPTICAL_FLOW_RAD -d /dev/ttyS1`
  * `mavlink stream -r 500 -s DISTANCE_SENSOR -d /dev/ttyS1`
+
+
+## RPL MAVROS Wrappers
+
+The ROS nodes required to run when flying are contained in
+[dd2414_ros_companion_pc](https://github.com/alsarm/dd2414_ros_companion_pc).
+Follow the instructions in the repo for setup.
+
+ * [`uav.launch`](https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/launch/uav.launch)
+   is the launch file that you use.
+ * Set up a config folder like [`awesome_drone/`](https://github.com/alsarm/dd2414_ros_companion_pc/tree/main/src/rpl/config/awesome_drone) that `uav.launch` will call
+   * You shouldn't need to change much if anything in here
+ * [`distance_sensor_override.py`](https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py) is the 'fake mocap' that uses the distance sensro (TeraRanger) for z-axis estimates, but maps them through the MoCap position estimate topic
+   * This was created because of z-axis drift issues when using the distance sensor directly with the Pixhawk.
+     * This, we think, is because PX4 swaps to the barometer during periods of uncertainty when using the distance sensor and it is doesn't do this when using 'external vision'

@@ -8,13 +8,13 @@
  3. Set your QGroundControl parameter selections
     1. Especially `EKF2_HGT_MODE` (see [PX4 Parameter Reference](https://dev.px4.io/en/advanced/parameter_reference.html))
         1. Set value to `2` for using TeraRanger distance sensor readings directly for z-axis position measurements
-        2. Set value to `3` for using MoCAp or TeraRanger readings mapped through the MoCap topic (see ____) for z-axis position measurements
- 4. Configure relevant files such as `uav.launch`, `______`
+        2. Set value to `3` for using MoCAp or TeraRanger readings mapped through the MoCap topic (see [`distance_sensor_override.py`](https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py)) for z-axis position measurements
+ 4. Configure relevant files such as `uav.launch`, `px4_config.yaml`, & `px4_pluginlists.yaml`
     1. Select which RealSense cameras to use, z-axis estimate mode, etc.
  5. Safely place drone in the flying cage and reboot/prearm the Pixhawk 4
     1. You must be wearing PPE (gloves, safety glasses, ear muffs).
     2. Prearming is done with the pre-arming button.
- 6. Launch all necessary ROS nodes
+ 6. Launch necessary ROS nodes
     1. `roslaunch rpl uav.launch`
  7. Verify the TeraRanger distance sensor is actively reporting
     distance values either through MAVROS or in QGroundControl
