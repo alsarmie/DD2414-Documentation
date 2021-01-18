@@ -613,8 +613,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-rate-adjustment" class="md-nav__link">
-    Message Rate Adjustment
+  <a href="#ftdi-vs-usb" class="md-nav__link">
+    FTDI vs USB
   </a>
   
 </li>
@@ -726,7 +726,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../future_work.md" class="md-nav__link">
+    <a href="../../future_work/" class="md-nav__link">
       Future Work
     </a>
   </li>
@@ -797,8 +797,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-rate-adjustment" class="md-nav__link">
-    Message Rate Adjustment
+  <a href="#ftdi-vs-usb" class="md-nav__link">
+    FTDI vs USB
   </a>
   
 </li>
@@ -856,7 +856,7 @@ test for successful installation by launching:</p>
 <li><code>rostopic echo /mavros/distance_sensor/hrlv_ez4_pub</code></li>
 <li><code>rostopic echo /mavros/px4flow/raw/optical_flow_rad</code></li>
 </ul>
-<h2 id="message-rate-adjustment">Message Rate Adjustment</h2>
+<h2 id="ftdi-vs-usb">FTDI vs USB</h2>
 <p><strong>NOTE: Only follow this section if attempting to use the FTDI cable to connect the Pixhawk to the NUC.
 See <a href="https://docs.px4.io/master/en/companion_computer/pixhawk_companion.html#hardware-setup">PX4 Companion Computer Hardware Setup</a>.
 If flying with usb, change the <a href="https://docs.px4.io/master/en/advanced_config/parameter_reference.html#CBRK_USB_CHK"><code>CBRK_USB_CHK</code></a> parameter to <code>197848</code> and you can use the microUSB port on the Pixhawk 4 to connect to the NUC.</strong></p>
@@ -890,7 +890,7 @@ Follow the instructions in the repo for setup.</p>
    is the launch file that you use.</li>
 <li>Set up a config folder like <a href="https://github.com/alsarm/dd2414_ros_companion_pc/tree/main/src/rpl/config/awesome_drone"><code>awesome_drone/</code></a> that <code>uav.launch</code> will call</li>
 <li>You shouldn't need to change much if anything in here</li>
-<li><a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py"><code>distance_sensor_override.py</code></a> is the 'fake mocap' that uses the distance sensro (TeraRanger) for z-axis estimates, but maps them through the MoCap position estimate topic</li>
+<li><a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py"><code>distance_sensor_override.py</code></a> is the 'fake mocap' that uses the distance sensor (TeraRanger) for z-axis estimates, but maps them through the MoCap position estimate topic</li>
 <li>This was created because of z-axis drift issues when using the distance sensor directly with the Pixhawk.<ul>
 <li>This, we think, is because PX4 swaps to the barometer during periods of uncertainty when using the distance sensor and it doesn't do this when using 'external vision'</li>
 </ul>
