@@ -9,6 +9,28 @@ installation instructions prior to assembling the frame
 as it will be easier to solder necessary components to
 the integrated PDB before the frame is assembled.
 
+## PDB Installation.
+
+The Q380 Multirotor PDB embedded into the bottom plate requires the following steps before being assembled into the frame.
+
+1. You need a [Power Module](https://ardupilot.org/copter/docs/common-3dr-power-module.html), this will be soldered into the PDB in the spot marked as follows:
+
+<p align="center">
+<kbd>
+  <img src="../../img/assembly/lower_plate.svg" alt="drawing" width="400">
+</kbd>
+</p>
+
+Note that we also need to solder a filtering capacitor into the PDB at the same spot (red circle).
+The XT60 battery connector on one end of the Power module is left to be able to exchange the type of connector (XT60 to XT60 or XT60 to XT90) that will be placed in the 3D printed holder, as well this was also intended to be connected to an inline voltage alarm ( to replace the alarm that connects directly to each cell). The result of how this looks after mounting is shown next.
+
+
+<p align="center">
+<kbd>
+  <img src="../../img/assembly/PDB4.svg" alt="drawing" width="400">
+</kbd>
+</p>
+
 ## Standard Frame Assembly
 
 Assembling the standard frame is fairly straightforward,

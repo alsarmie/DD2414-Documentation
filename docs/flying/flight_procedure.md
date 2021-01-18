@@ -1,6 +1,6 @@
 # Flight Procedure
 
-**TO DO: Add correct launch commands**
+
 
 
  1. Review [Flight Safety](/flying/flight_safety/) instructions

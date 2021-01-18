@@ -806,7 +806,7 @@
 </ol>
 </li>
 <li>Launch all necessary ROS nodes<ol>
-<li><code>roslaunch ______</code></li>
+<li><code>roslaunch rpl uav.launch</code></li>
 </ol>
 </li>
 <li>Verify the TeraRanger distance sensor is actively reporting
@@ -816,8 +816,8 @@
 </ol>
 </li>
 <li>Begin recording video of flight with an external camera (w/ a view of the flight area)</li>
-<li>Begin recording a ROSBAG of all relevant topics<ol>
-<li><code>rosbag record ____</code></li>
+<li>Begin recording a rosbag of point cloud data (by default, there is a rosbag being recorded with all relevant topics -mavros and tf- when launching the uav.launch file )<ol>
+<li><code>rosbag record --lz4 -O cameras_outside_net.b_2ag /tf /tf_static /l515/depth/color/points  /d435_r/depth/color/points /d435_l/depth/color/points</code></li>
 </ol>
 </li>
 <li>Arm the drone with the <a href="https://docs.px4.io/master/en/advanced_config/prearm_arm_disarm.html#arming-gesture">Arming Gesture</a><ol>
