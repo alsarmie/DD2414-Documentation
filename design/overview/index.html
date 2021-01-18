@@ -278,6 +278,33 @@
     Design Overview
   </a>
   
+    <nav class="md-nav" aria-label="Design Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-design-objectives" class="md-nav__link">
+    Primary Design Objectives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-design-objectives" class="md-nav__link">
+    Additional Design Objectives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mandatory-hardware" class="md-nav__link">
+    Mandatory Hardware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -448,19 +475,6 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
-        
-          
-          
-          
-
-
-
-  <li class="md-nav__item">
-    <a href="../../assembly/about/" class="md-nav__link">
-      About
-    </a>
-  </li>
-
         
           
           
@@ -747,6 +761,33 @@
     Design Overview
   </a>
   
+    <nav class="md-nav" aria-label="Design Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#primary-design-objectives" class="md-nav__link">
+    Primary Design Objectives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-design-objectives" class="md-nav__link">
+    Additional Design Objectives
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mandatory-hardware" class="md-nav__link">
+    Mandatory Hardware
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -770,26 +811,45 @@
                 
                 <h2 id="design-overview">Design Overview</h2>
 <hr />
-<p>The main design objectives are the following ones:</p>
+<p>The main objective of this project was to improve the existing drone platforms.</p>
 <ul>
-<li>Larger propellers.</li>
-<li>More serviceable design than previous models.</li>
-<li>10+ minutes of flight time.</li>
-<li>Mandatory hardware:<ul>
-<li>3 RealSense cameras (RGB-D): 1 LiDAR (L515) + 2 D435i.</li>
-<li>1 Hotswap board.</li>
-<li>NUC</li>
-<li>DC/DC converters.</li>
-<li>1 TeraRanger, 1 Optical Flow sensor.</li>
-<li>1 FCU</li>
-<li>Serial connection between FCU and NUC</li>
+<li><em>Previous working quadcopter</em>
+<kbd>
+  <img src="https://drive.google.com/uc?export=view&id=1S6N-BE8nQSU5emsR-n_m0tD9OuC-3pNb">
+</kbd></li>
+<li><em>Previous working hexacopter</em>
+  <kbd>
+    <img src="https://drive.google.com/uc?export=view&id=1Fe6wwjZy6Nwv8JpEMQuKM2kAXpSoLfZj">
+  </kbd></li>
 </ul>
-</li>
-<li>Better cable management.</li>
-<li>Parts that break, rather than bend.</li>
-<li>Shock absorption for landing gear.</li>
-<li>MoCap reflectors.</li>
-<li>Propeller guards.</li>
+<p>In order to design the new drone, we first required to take into consideration the space limitations on which the previous drones operated and their current specs. In this case, as an indoor drone, it was desirable to be able to pass through doors (800 mm wide) with enough clearance. Given this constrain, we then required to choose the type of frame, motors and propellers that could meet the following requirements:</p>
+<h3 id="primary-design-objectives">Primary Design Objectives</h3>
+<ul>
+<li>Isotropic quadcopter</li>
+<li>Longer flight time (10+ minutes)</li>
+<li>600 mm maximum blade tip-to-tip distance</li>
+<li>Stable flight</li>
+<li>Heavier &amp; more configurable payloads (3 Intel RealSense cameras &amp; a NUC)</li>
+<li>Serviceable design for easier maintenance</li>
+</ul>
+<h3 id="additional-design-objectives">Additional Design Objectives</h3>
+<ul>
+<li>Better motor/propeller pairing</li>
+<li>Better weight distribution (keep center of mass close to the center of the drone)</li>
+<li>Better cable management</li>
+<li>Parts that break, rather than bend</li>
+<li>Shock absorption for landing gear</li>
+<li>MoCap reflectors</li>
+<li>Propeller guards</li>
+</ul>
+<h3 id="mandatory-hardware">Mandatory Hardware</h3>
+<ul>
+<li>1 Flight Control Unit - PX4 Flight Stack</li>
+<li>1 Intel NUC computer</li>
+<li>3 RealSense cameras (RGB-D): 1 LIDAR (L515) + 2 Stereo (D435i)</li>
+<li>1 TeraRanger distance sensor, 1 Optical Flow sensor</li>
+<li>1 Y-PWR Hotswap board</li>
+<li>DC/DC converters</li>
 </ul>
                 
               
