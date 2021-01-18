@@ -79,9 +79,9 @@ are likely already be on hand.
 
 ## Cabling
 
-See details in [Cabling Summary](/parts/cabling/).
+See details in [Cabling Summary](cabling.md).
 
 
 ## Fasteners
 
-See details in [Fasteners Summary](/parts/fasteners/).
+See details in [Fasteners Summary](fasteners.md).
