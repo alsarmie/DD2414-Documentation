@@ -21,14 +21,6 @@ nav:
 
     - About: about.md
 
-    - Assembly:
-      - 'About': assembly/about.md
-      - 'Frame': assembly/frame.md
-      - 'Propulsion': assembly/propulsion.md
-      - 'Landing Gear': assembly/landing_gear.md
-      - 'Sensor Plate': assembly/sensor_plate.md
-      - 'Peripherals': assembly/peripherals.md
-
     - Design:
       - 'Mechanical design': design/mechanical.md
       - 'Electrical design': design/electrical.md
@@ -40,6 +32,15 @@ nav:
       - 'Printed Parts': parts/printed_parts.md
       - 'Cabling': parts/cabling.md
       - 'Fasteners': parts/fasteners.md
+
+
+    - Assembly:
+      - 'About': assembly/about.md
+      - 'Frame': assembly/frame.md
+      - 'Propulsion': assembly/propulsion.md
+      - 'Landing Gear': assembly/landing_gear.md
+      - 'Sensor Plate': assembly/sensor_plate.md
+      - 'Peripherals': assembly/peripherals.md
 
     - Setup:
       - 'Install the software.': setup/install_software.md
