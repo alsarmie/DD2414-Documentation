@@ -99,7 +99,7 @@ Recommended setting changes for these parts include:
   5. Attach Q380 top plate to adapters with M3 x 10 torx scews.
      1. Consider mounting the NUC mount bottom component to the Q380 top plate before
         attaching the top plate to the rest of the frame.
-        It will make the [Assembly - NUC Bottom Mount](/assembly/peripherals/#bottom-mount) step easier.
+        It will make the [Assembly - NUC Bottom Mount](peripherals.md#bottom-mount) step easier.
 
 <kbd>
   <img src="../../img/assembly/large-battery-adpater-installed.png">

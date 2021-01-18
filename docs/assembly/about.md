@@ -1,3 +1,0 @@
-# Assembly Overview
-
-**TO DO**

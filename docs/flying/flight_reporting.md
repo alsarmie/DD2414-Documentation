@@ -10,8 +10,8 @@ This includes:
  * External video
  * Flight notes
 
-Examples of the what & how to save this flight data can be found in the [Flight tests](/tests/#flight-tests)
-section of the [Weekly Updates & Tests](/tests/) page.
+Examples of the what & how to save this flight data can be found in the [Flight tests](../tests.md#flight-tests)
+section of the [Weekly Updates & Tests](../tests.md) page.
 
 ## Flight ROSBAG
 
@@ -198,7 +198,7 @@ Recommendations:
    the net so the net is not obstructing the camera's view
  * Ensure you have enough battery/memory capacity to record the full flight
 
-Check out some examples of flight videos we recorded in the [Flight tests](/tests/#flight-tests) section of the [Weekly Updates & Tests](/tests/) page.
+Check out some examples of flight videos we recorded in the [Flight tests](../tests.md#flight-tests) section of the [Weekly Updates & Tests](../tests.md) page.
 
 ## Flight Notes
 
@@ -214,4 +214,4 @@ These sample notes were taken while we were performing battery life/flight durat
 
 The flight notes were also particularly useful for us when tuning the drone's PID controllers (see [Multicopter PID Tuning Guide](https://docs.px4.io/master/en/config_mc/pid_tuning_guide_multicopter.html)) so that we could quickly & easily correspond PID parameter changes made with the resulting performance changes in the drone's flight.
 
-Check out some more examples of flight notes we took in the [Flight tests](/tests/#flight-tests) section of the [Weekly Updates & Tests](/tests/) page.
+Check out some more examples of flight notes we took in the [Flight tests](../tests.md#flight-tests) section of the [Weekly Updates & Tests](../tests.md) page.

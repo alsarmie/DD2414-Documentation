@@ -43,7 +43,7 @@ This includes:
 
 ## Procedure
 
-Before starting, please follow instructions for [Landing Gear Assembly](/assembly/landing_gear/).
+Before starting, please follow instructions for [Landing Gear Assembly](landing_gear.md).
 The D435i stereo cameras are mounted onto two of the landing gear legs [`Main Leg (With camera mount)`],
 so these should be attached to the drone frame prior to connecting the peripherals.
 
@@ -84,7 +84,7 @@ There are multiple mounting point options on the NUC for the boost converter mou
 This flexibility is so the weight distribution can be changed AND
 to offer a spot for mounting a Nvidia TX2 on top of the NUC for additional
 computing / image processing capabilities.
-See [TX2 Note](/assembly/peripherals/#tx2-note) below.
+See [TX2 Note](peripherals.md#tx2-note) below.
 
 It is strongly recommended (if not mandatory) to mount the boost converter
 to the furthest back mounting point (as seen above) as it is helpful in offsetting
@@ -99,7 +99,7 @@ at the back and the boost converter would be at the front.
 
  1. Set the boost converter in the mount with the wire ports towards the open side
     1. Note that the open side of the NUC mount sits on the drone's left hand side.
-       See [NUC Assembly](/assembly/peripherals/#nuc) below.
+       See [NUC Assembly](peripherals.md#nuc) below.
  2. Line up the boost converter with the furthest back set of mounting holes, such that
     the wire ports face towards the open (left) side of the NUC mount.
  3. Insert a nut into each of the 4 corresponding nut slots in the underside of the NUC mount top

@@ -22,5 +22,5 @@ If there are any access issues please contact Kyle Coble at [kwc57@cornell.edu](
 
 ### Notes
  1. Do not print 4 each of the landing gear components.
-    See [Landing Gear Assembly - 3D Printing](/assembly/landing_gear/#3d-printing)
+    See [Landing Gear Assembly - 3D Printing](../assembly/landing_gear.md#3d-printing)
     for specific print quantities of each component.

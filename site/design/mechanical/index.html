@@ -456,19 +456,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../assembly/about/" class="md-nav__link">
-      About
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-
-  <li class="md-nav__item">
     <a href="../../assembly/frame/" class="md-nav__link">
       Frame
     </a>
@@ -770,125 +757,68 @@
                 
                 <h2 id="mechanical-design-considerations">Mechanical design considerations.</h2>
 <hr />
-<p>The main objective of this project was to improve the existing drone platforms.</p>
-<ul>
-<li><em>Previous working quadcopter</em>
-<kbd>
-  <img src="https://drive.google.com/uc?export=view&id=1S6N-BE8nQSU5emsR-n_m0tD9OuC-3pNb">
-</kbd></li>
-<li><em>Previous working hexacopter</em>
-  <kbd>
-    <img src="https://drive.google.com/uc?export=view&id=1Fe6wwjZy6Nwv8JpEMQuKM2kAXpSoLfZj">
-  </kbd>  </li>
-</ul>
+<p>The main objective of this project was to improve the existing drone platforms, with the following specs:</p>
 <table>
 <thead>
 <tr>
-<th>Exisitng Drone Specs - Quadcopter</th>
-<th></th>
+<th>Exisitng Drone Specs</th>
+<th>Quadcopter</th>
+<th>Hexacopter</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Wheelbase (mm)</td>
 <td>260</td>
+<td>290</td>
 </tr>
 <tr>
-<td>Prop size (mm)</td>
+<td>Prop size (mm) *</td>
 <td>153</td>
+<td>127</td>
 </tr>
 <tr>
 <td>Max width (mm)</td>
 <td>370</td>
+<td>420</td>
 </tr>
 <tr>
 <td>Occupancy sphere radius</td>
 <td>207</td>
+<td>209</td>
 </tr>
 <tr>
 <td>Empty Mass (g)</td>
 <td>760</td>
+<td>1376</td>
 </tr>
 <tr>
 <td>Full Mass (TX2, 4000mAh LiPo)</td>
 <td>1328</td>
+<td>2026</td>
 </tr>
 <tr>
 <td>Number Propellers</td>
 <td>4</td>
+<td>6</td>
 </tr>
 <tr>
-<td>Minimum Trust Rastio ( _ : 1 )</td>
+<td>Minimum Thrust Ratio ( _ : 1 )</td>
+<td>2</td>
 <td>2</td>
 </tr>
 <tr>
 <td>Minimum Thrust per motor (g)</td>
 <td>664</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Exisitng Drone Specs - Hexacopter</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Wheelbase (mm)</td>
-<td>290</td>
-</tr>
-<tr>
-<td>Prop size (mm) *</td>
-<td>127</td>
-</tr>
-<tr>
-<td>Max width (mm)</td>
-<td>420</td>
-</tr>
-<tr>
-<td>Occupancy sphere radius</td>
-<td>209</td>
-</tr>
-<tr>
-<td>Empty Mass (g)</td>
-<td>1376</td>
-</tr>
-<tr>
-<td>Full Mass (8000mAh LiPo)</td>
-<td>2026</td>
-</tr>
-<tr>
-<td>Number Propellers</td>
-<td>6</td>
-</tr>
-<tr>
-<td>Minimum Trust Rastio ( _ : 1 )</td>
-<td>2</td>
-</tr>
-<tr>
-<td>Minimum Thrust per motor (g)</td>
 <td>676</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
 </tr>
 <tr>
 <td>* Hexacopter uses three blade propellers</td>
 <td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>In order to design the new drone, we first required to take into consideration the space limitations on which the previous drones operated and their current specs. In this case, as an indoor drone, it was desirable to be able to pass through doors (800 mm wide) with enough clearance. Given this constrain, we then required to choose the type of frame, motors and propellers that could meet the following requirements:</p>
-<ul>
-<li>Longer flight time.</li>
-<li>Better motor/propeller pairing.</li>
-<li>Heavier payload (3 Intel RealSense cameras &amp; a NUC).</li>
-<li>Better weight distribution (keep center of mass close to the center of the drone).</li>
-<li>Stable flight.</li>
-</ul>
 <p>Starting with the frame, we decided upon a X body, as it is symmetric (pitch &amp; roll), strong, compact and simple. Its natural symmetry  is better for balancing flying forces. Considering as well the biggest element the drone carries (Intel NUC), the ideal dimensions were reduced to the following diagram.</p>
 <p><kbd>
   <img src="../../img/dimension_diagram.png">
@@ -898,34 +828,28 @@
 <tr>
 <th>Element</th>
 <th>Size(mm)</th>
-<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Wheelbase</td>
 <td>380</td>
-<td></td>
 </tr>
 <tr>
 <td>Propeller</td>
 <td>204</td>
-<td></td>
 </tr>
 <tr>
 <td>Drone Occupancy Radius</td>
 <td>292</td>
-<td></td>
 </tr>
 <tr>
 <td>Drone Occupancy Diameter</td>
 <td>584</td>
-<td></td>
 </tr>
 <tr>
 <td>Clearance</td>
 <td>124</td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -945,12 +869,7 @@
 <td>Count</td>
 </tr>
 <tr>
-<td>Light Frame</td>
-<td>200</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Heavy frame</td>
+<td>Frame with landing gear</td>
 <td>710</td>
 <td>1</td>
 </tr>
@@ -980,12 +899,12 @@
 <td>2</td>
 </tr>
 <tr>
-<td>RealSense D455**</td>
+<td>RealSense D455</td>
 <td>120</td>
 <td>0</td>
 </tr>
 <tr>
-<td>RealSense L515***</td>
+<td>RealSense L515</td>
 <td>100</td>
 <td>1</td>
 </tr>
@@ -995,17 +914,7 @@
 <td>4</td>
 </tr>
 <tr>
-<td>Larger Motor (_ what model? _)</td>
-<td>82</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Low Level Hardware - Small</td>
-<td>380</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Low Level Hardware - Large</td>
+<td>Low Level Hardware</td>
 <td>445</td>
 <td>1</td>
 </tr>
@@ -1047,18 +956,6 @@
 </tr>
 </tbody>
 </table>
-<p>Each motor would need to generate at least ~1.3 kg of force to keep the 2:1 ratio.
-From the vast options of motors and propeller configurations, we employed <a href="https://www.ecalc.ch/xcoptercalc.php">eCalc</a><sup>1</sup> to have a better guideline to select the adequate motor. We selected SunnySky X2216-7 1250 KV III for its ratings and specs.</p>
-<p><kbd>
-  <img src="../../img/calculations.png">
-</kbd>  </p>
-<ol>
-<li>eCalc was taken as a rough estimate/guideline of the final performance of the drone.</li>
-</ol>
-<p>According to SunnySky <a href="https://sunnyskyusa.com/collections/x-v3-motors/products/sunnysky-x2216">datasheet</a>, the following combination meets the requirements:</p>
-<p><kbd>
-  <img src="../../img/sunnysky.png">
-</kbd>  </p>
 <p>For the actual drone frame, we chose the <a href="https://www.rcnhobby.com/se/hmf-totem-q380-380mm-fpv-4-axel-mini-quadcopter-frame-kit.html">Q380</a> X frame due to the following useful features:</p>
 <ul>
 <li>Complies with the 380-400 mm wheelbase size requirement</li>

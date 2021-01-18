@@ -47,7 +47,7 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
       <img src="../../img/assembly/ESC_solder.jpg">
     </kbd>
 
- 4. In the [Sensor Plate Assembly](/assembly/sensor_plate/) instructions, you will add an
+ 4. In the [Sensor Plate Assembly](sensor_plate.md) instructions, you will add an
     extension to the PWM connection cable, so you can leave this cable loose for now.
     Once that extension is prepared, the ESC's PWM cable plugs into the extension
     where the arm connects to the bottom plate.
@@ -145,4 +145,3 @@ To attach the propellers:
  2. Use the nut included with the prop adapter to secure the propeller
  3. It is not necessary to over-tighten these nuts, as they should be self-tightening during flight
     1. If you see them coming loose during flight, you may have swapped the CW & CCW adapters around
-

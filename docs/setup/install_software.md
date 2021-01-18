@@ -73,4 +73,4 @@ To install QGroundControl, please refer to the very comprehensive guide provided
 
 It may be useful to debug the PX4 via the NSH terminal. For that reason, you can use a FTDI cable to connect to the debug port, as described [here](https://docs.px4.io/master/en/flight_controller/snapdragon_flight_advanced.html#over-ftdi).
 
-You can check how to connect the FTDI cable to the PX4 [here](/parts/cabling/).
+You can check how to connect the FTDI cable to the PX4 [here](../parts/cabling.md).

@@ -420,19 +420,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../assembly/about/" class="md-nav__link">
-      About
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-
-  <li class="md-nav__item">
     <a href="../../assembly/frame/" class="md-nav__link">
       Frame
     </a>
@@ -905,7 +892,7 @@ Follow the instructions in the repo for setup.</p>
 <li>You shouldn't need to change much if anything in here</li>
 <li><a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py"><code>distance_sensor_override.py</code></a> is the 'fake mocap' that uses the distance sensro (TeraRanger) for z-axis estimates, but maps them through the MoCap position estimate topic</li>
 <li>This was created because of z-axis drift issues when using the distance sensor directly with the Pixhawk.<ul>
-<li>This, we think, is because PX4 swaps to the barometer during periods of uncertainty when using the distance sensor and it is doesn't do this when using 'external vision'</li>
+<li>This, we think, is because PX4 swaps to the barometer during periods of uncertainty when using the distance sensor and it doesn't do this when using 'external vision'</li>
 </ul>
 </li>
 </ul>
