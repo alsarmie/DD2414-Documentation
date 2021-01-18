@@ -57,7 +57,7 @@ are likely already be on hand.
 | Power Supply       | Boost Converter           | DC-DC 10-32V To 12-35V 150W Booster       | Purchased  |
 | Power Supply       | Boost Converter Mount     | Boost Converter Mount                     | 3D Printed |
 | Power Supply       | PX4 power supply          | PX4 power supply (Buck Converter)         | Purchased  |
-| Power Supply       | Capacitor                 | 2,200 mF Capacitor                        | Purchased  |
+| Power Supply       | Capacitor                 | 2,00 uF Capacitor                         | Purchased  |
 | Power Supply       | Power Connector Holder    | Power Connector Holder                    | 3D Printed |
 | Power Supply       | FCU Power Switch          | FCU Power / Reboot Switch                 | Purchased  |
 | Power Supply       | XT60 Connectors           | XT60 Connectors                           | Purchased  |

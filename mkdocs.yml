@@ -34,9 +34,7 @@ nav:
       - 'Cabling': parts/cabling.md
       - 'Fasteners': parts/fasteners.md
 
-
     - Assembly:
-      - 'About': assembly/about.md
       - 'Frame': assembly/frame.md
       - 'Propulsion': assembly/propulsion.md
       - 'Landing Gear': assembly/landing_gear.md
