@@ -784,19 +784,18 @@
                 
                 
                 <h1 id="flight-procedure">Flight Procedure</h1>
-<p><strong>TO DO: Add correct launch commands</strong></p>
 <ol>
 <li>Review <a href="/flying/flight_safety/">Flight Safety</a> instructions</li>
 <li>Review <a href="/flying/flight_safety/">Flight Safety</a> instructions again</li>
 <li>Set your QGroundControl parameter selections<ol>
 <li>Especially <code>EKF2_HGT_MODE</code> (see <a href="https://dev.px4.io/en/advanced/parameter_reference.html">PX4 Parameter Reference</a>)<ol>
 <li>Set value to <code>2</code> for using TeraRanger distance sensor readings directly for z-axis position measurements</li>
-<li>Set value to <code>3</code> for using MoCAp or TeraRanger readings mapped through the MoCap topic (see ____) for z-axis position measurements</li>
+<li>Set value to <code>3</code> for using MoCAp or TeraRanger readings mapped through the MoCap topic (see <a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py"><code>distance_sensor_override.py</code></a>) for z-axis position measurements</li>
 </ol>
 </li>
 </ol>
 </li>
-<li>Configure relevant files such as <code>uav.launch</code>, <code>______</code><ol>
+<li>Configure relevant files such as <code>uav.launch</code>, <code>px4_config.yaml</code>, &amp; <code>px4_pluginlists.yaml</code><ol>
 <li>Select which RealSense cameras to use, z-axis estimate mode, etc.</li>
 </ol>
 </li>
@@ -805,7 +804,7 @@
 <li>Prearming is done with the pre-arming button.</li>
 </ol>
 </li>
-<li>Launch all necessary ROS nodes<ol>
+<li>Launch necessary ROS nodes<ol>
 <li><code>roslaunch rpl uav.launch</code></li>
 </ol>
 </li>

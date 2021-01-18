@@ -654,13 +654,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rpl-mavros-wrappers" class="md-nav__link">
-    RPL MAVROS Wrappers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#mavros-links" class="md-nav__link">
     MAVROS Links
   </a>
@@ -690,6 +683,13 @@
         <li class="md-nav__item">
   <a href="#message-rate-adjustment" class="md-nav__link">
     Message Rate Adjustment
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpl-mavros-wrappers" class="md-nav__link">
+    RPL MAVROS Wrappers
   </a>
   
 </li>
@@ -838,13 +838,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rpl-mavros-wrappers" class="md-nav__link">
-    RPL MAVROS Wrappers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#mavros-links" class="md-nav__link">
     MAVROS Links
   </a>
@@ -878,6 +871,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#rpl-mavros-wrappers" class="md-nav__link">
+    RPL MAVROS Wrappers
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -896,10 +896,6 @@
                 
                 
                 <h1 id="mavros-setup">MAVROS Setup</h1>
-<h2 id="rpl-mavros-wrappers">RPL MAVROS Wrappers</h2>
-<p><strong>TO DO:</strong>
-<strong>Need to push/link our RPL repo from the NUC and provide some usage instructions</strong></p>
-<p>Then move this section further down on this page.</p>
 <h2 id="mavros-links">MAVROS Links</h2>
 <p>MAVROS usage is well documented and your priority should be to follow
 the official links / resources, especially as functionalities are updated.</p>
@@ -929,7 +925,11 @@ test for successful installation by launching:</p>
 <li><code>rostopic echo /mavros/px4flow/raw/optical_flow_rad</code></li>
 </ul>
 <h2 id="message-rate-adjustment">Message Rate Adjustment</h2>
-<p>It was necessary to change the rates at which messages come in.
+<p><strong>NOTE: Only follow this section if attempting to use the FTDI cable to connect the Pixhawk to the NUC.
+See <a href="https://docs.px4.io/master/en/companion_computer/pixhawk_companion.html#hardware-setup">PX4 Companion Computer Hardware Setup</a>.
+If flying with usb, change the <a href="https://docs.px4.io/master/en/advanced_config/parameter_reference.html#CBRK_USB_CHK"><code>CBRK_USB_CHK</code></a> parameter to <code>197848</code> and you can use the microUSB port on the Pixhawk 4 to connect to the NUC.</strong></p>
+<p>When using the FTDI cable,
+it was necessary to change the rates at which messages come in.
 These are all added to <code>/ROMFS/px4fmu_common/init.d-posix/rcS</code> in our version of
 <a href="https://github.com/alsarm/PX4-Autopilot">PX4 firmware</a>,
 so it runs on Pixhawk boot.
@@ -948,6 +948,21 @@ those we have made to  <code>/ROMFS/px4fmu_common/init.d-posix/rcS</code>.</p>
 <li><code>mavlink stream -r 500 -s RC_CHANNELS -d /dev/ttyS1</code></li>
 <li><code>mavlink stream -r 500 -s OPTICAL_FLOW_RAD -d /dev/ttyS1</code></li>
 <li><code>mavlink stream -r 500 -s DISTANCE_SENSOR -d /dev/ttyS1</code></li>
+</ul>
+<h2 id="rpl-mavros-wrappers">RPL MAVROS Wrappers</h2>
+<p>The ROS nodes required to run when flying are contained in
+<a href="https://github.com/alsarm/dd2414_ros_companion_pc">dd2414_ros_companion_pc</a>.
+Follow the instructions in the repo for setup.</p>
+<ul>
+<li><a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/launch/uav.launch"><code>uav.launch</code></a>
+   is the launch file that you use.</li>
+<li>Set up a config folder like <a href="https://github.com/alsarm/dd2414_ros_companion_pc/tree/main/src/rpl/config/awesome_drone"><code>awesome_drone/</code></a> that <code>uav.launch</code> will call</li>
+<li>You shouldn't need to change much if anything in here</li>
+<li><a href="https://github.com/alsarm/dd2414_ros_companion_pc/blob/main/src/rpl/src/distance_sensor_override.py"><code>distance_sensor_override.py</code></a> is the 'fake mocap' that uses the distance sensro (TeraRanger) for z-axis estimates, but maps them through the MoCap position estimate topic</li>
+<li>This was created because of z-axis drift issues when using the distance sensor directly with the Pixhawk.<ul>
+<li>This, we think, is because PX4 swaps to the barometer during periods of uncertainty when using the distance sensor and it is doesn't do this when using 'external vision'</li>
+</ul>
+</li>
 </ul>
                 
               

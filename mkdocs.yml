@@ -21,14 +21,6 @@ nav:
 
     - About: about.md
 
-    - User Guide:
-      # Assembly
-      - 'Build a drone.': guide/build_hardware.md
-      # Software setup
-      - 'Install the software.': guide/install_software.md
-      - 'Calibrate steering and throttle.': guide/calibrate.md
-      - 'Get flying.': guide/get_driving.md
-
     - Assembly:
       - 'About': assembly/about.md
       - 'Frame': assembly/frame.md
@@ -50,6 +42,7 @@ nav:
       - 'Fasteners': parts/fasteners.md
 
     - Setup:
+      - 'Install the software.': setup/install_software.md
       - 'Radio': setup/radio_setup.md
       - 'Flight Modes': setup/flight_modes.md
       - 'MAVROS': setup/mavros_setup.md
