@@ -3,6 +3,8 @@
 
 The main objective of this project was to improve the existing drone platforms, with the following specs:
 
+<center>
+
   | Exisitng Drone Specs              | Quadcopter | Hexacopter |
   | --------------------------------- | ---------- | ---------- |
   | Wheelbase (mm)                    | 260        | 290        |
@@ -16,11 +18,17 @@ The main objective of this project was to improve the existing drone platforms, 
   | Minimum Thrust per motor (g)      | 664        | 676        |
   | \* Hexacopter uses three blade propellers |    |            |
 
+</center>
+
 Starting with the frame, we decided upon a X body, as it is symmetric (pitch & roll), strong, compact and simple. Its natural symmetry  is better for balancing flying forces. Considering as well the biggest element the drone carries (Intel NUC), the ideal dimensions were reduced to the following diagram.
 
+<p align="center">
 <kbd>
-  <img src="../../img/dimension_diagram.png">
-</kbd>
+  <img src="../../img/dimension_diagram.png" width=450>
+  </kbd>
+</p>
+
+<center>
 
 | Element                  | Size(mm) |
 | ------------------------ | -------- |
@@ -30,7 +38,11 @@ Starting with the frame, we decided upon a X body, as it is symmetric (pitch & r
 | Drone Occupancy Diameter | 584      |
 | Clearance                | 124      |
 
+</center>
+
 To determine the type of motors and size of the propellers, we took an estimate of the total mass that the drone had to lift, taking the following considerations:
+
+<center>
 
 | Expected Mass Calculations - Fully Loaded |||
 | ----------------------------------------- |||
@@ -47,7 +59,11 @@ To determine the type of motors and size of the propellers, we took an estimate 
 | Low Level Hardware                        | 445  | 1 |
 | Total                                     | 2573 | N/A |
 
+</center>
+
 Ideally we want to have a hovering lift force equal to the weight of the drone, that is a thrust ratio of 2:1. Hence, the maximum thrust we need to generate is 5146 g.
+
+<center>
 
 | Thrust Calculations          ||
 | ---------------------------- ||
@@ -57,6 +73,7 @@ Ideally we want to have a hovering lift force equal to the weight of the drone, 
 | Motor Count                  | 4 |
 | Minimum thrust per motor (g) | 1287 |
 
+</center>
 
 For the actual drone frame, we chose the [Q380](https://www.rcnhobby.com/se/hmf-totem-q380-380mm-fpv-4-axel-mini-quadcopter-frame-kit.html) X frame due to the following useful features:
 

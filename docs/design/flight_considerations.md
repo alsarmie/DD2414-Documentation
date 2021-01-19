@@ -4,9 +4,11 @@ For the drone to be useful for indoor navigation a long flight time (within reas
 
 The expected flight time is determined by a simple formula:
 
+<p align="center">
 <kbd>
-  <img src="../../img/flighteq.svg">
-</kbd>  
+  <img src="../../img/flighteq.png">
+</kbd>
+</p>
 
 where,
 

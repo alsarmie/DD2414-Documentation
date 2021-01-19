@@ -22,6 +22,8 @@ to be a convenient switch to use for switching between flight modes as it
 is well located and it should allow for switching between three
 Flight Mode settings.
 
+<p align="center">
 <kbd>
-  <img src="../../img/setup/taranis_x9d_SA_switch.jpg">
+  <img src="../../img/setup/taranis_x9d_SA_switch.jpg" width=400>
 </kbd>
+</p>

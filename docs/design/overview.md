@@ -5,13 +5,20 @@ The main objective of this project was to improve the existing drone platforms.
 
 
   + *Previous working quadcopter*
+
+<p align="center">
 <kbd>
-  <img src="https://drive.google.com/uc?export=view&id=1S6N-BE8nQSU5emsR-n_m0tD9OuC-3pNb">
-</kbd>
-  + *Previous working hexacopter*
-  <kbd>
-    <img src="https://drive.google.com/uc?export=view&id=1Fe6wwjZy6Nwv8JpEMQuKM2kAXpSoLfZj">
+  <img src="https://drive.google.com/uc?export=view&id=1S6N-BE8nQSU5emsR-n_m0tD9OuC-3pNb" width=500>
   </kbd>
+</p>
+
+  + *Previous working hexacopter*
+
+<p align="center">
+  <kbd>
+    <img src="https://drive.google.com/uc?export=view&id=1Fe6wwjZy6Nwv8JpEMQuKM2kAXpSoLfZj" width=300>
+  </kbd>
+</p>
 
  In order to design the new drone, we first required to take into consideration the space limitations on which the previous drones operated and their current specs. In this case, as an indoor drone, it was desirable to be able to pass through doors (800 mm wide) with enough clearance. Given this constrain, we then required to choose the type of frame, motors and propellers that could meet the following requirements:
 

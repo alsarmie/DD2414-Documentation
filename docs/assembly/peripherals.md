@@ -8,11 +8,11 @@ This includes:
  * Lidar sensors used for SLAM
  * Cameras used for Computer Vision and/or SLAM
 
-
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/peripherals.jpg">
+  <img src="../../img/assembly/peripherals.jpg" width=600>
 </kbd>
-
+</p>
 
 ## Required Parts
 
@@ -75,9 +75,11 @@ could possibly be improved by the use of ABS material or by modifying print sett
 
 ### Boost Converter
 
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/boost_converter.jpg">
+  <img src="../../img/assembly/boost_converter.jpg" width=450>
 </kbd>
+</p>
 
 The boost converter sits on top of the NUC.
 There are multiple mounting point options on the NUC for the boost converter mount.
@@ -141,10 +143,11 @@ mount and can treat them as one component while mounting the NUC.
        Using other screw hole locations will cause the bottom of the screw and the nut to
        interfere with sliding the battery into place.
 
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/nuc_mount_bottom.jpg">
+  <img src="../../img/assembly/nuc_mount_bottom.jpg" width=350>
 </kbd>
-
+</p>
 
 
 #### MoCap Marker Installation
@@ -242,7 +245,8 @@ As you can see below, it ***should*** fit when mounted in the same way as the bo
 Also, power supply from the boost converter ***should*** be sufficient for both
 the NUC and the TX2 simultaneously, but this was not verified with a test.
 
-
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/tx2_board.jpg">
+  <img src="../../img/assembly/tx2_board.jpg" width=450>
 </kbd>
+</p>

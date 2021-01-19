@@ -206,9 +206,11 @@ It is recommended to jot down some notes about the flight immediately after the 
 and especially during analysis of the flight data if you are debugging some issues.
 e.g:
 
+<p align="center">
 <kbd>
    <img src="../../img/flying/flight_notes_example.png">
 </kbd>
+</p>
 
 These sample notes were taken while we were performing battery life/flight duration tests, hence the focus on power consumption.
 

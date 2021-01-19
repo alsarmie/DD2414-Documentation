@@ -4,10 +4,11 @@ We use the [FrSky D4R-II Radio Receiver](https://www.frsky-rc.com/product/d4r-ii
 and bind it to the [FrSky Taranis X9D Plus](https://www.frsky-rc.com/product/taranis-x9d-plus-2/)
 digital Telemetry Radio system (our transmitter).
 
+<p align="center">
 <kbd>
-  <img src="../../img/setup/radio_all_components.jpg">
+  <img src="../../img/setup/radio_all_components.jpg" width=600>
 </kbd>
-
+</p>
 
 ## Instructions
 
@@ -20,9 +21,11 @@ Note that we will be using PPM mode.
 
 ### Connection
 
+<p align="center">
 <kbd>
-  <img src="../../img/setup/radio_d4R-II_components.jpg">
+  <img src="../../img/setup/radio_d4R-II_components.jpg" width=350>
 </kbd>
+</p>
 
  1. Connect signal pins for channels 3 and 4 using jumper to put receiver in **PPM** mode.
  2. Connect the 3 wire servo cable to receiver channel 1 and plug this into the **PPM RC** port on the Pixhawk 4.
@@ -31,9 +34,11 @@ Note that we will be using PPM mode.
     2. A solid green light indicates power and proper binding.
     3. Solid green and red lights indicates firmware incompatibilities between receiver and transmitter.
 
+<p align="center">
 <kbd>
-  <img src="../../img/setup/radio_d4R-II_connected.jpg">
+  <img src="../../img/setup/radio_d4R-II_connected.jpg" width=450>
 </kbd>
+</p>
 
 ### Binding to Transmitter
 

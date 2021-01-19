@@ -21,19 +21,22 @@ based on the motor location.
 This image, from the PX4 documentation, shows the motor id and the
 propeller spin direction for a Quad X multi-rotor copter like ours.
 
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/motor_direction.png">
+  <img src="../../img/assembly/motor_direction.png" width=300>
 </kbd>
+</p>
 
 ### ESC
 
  1. The SunnySky motors we are using come equipped with 3.5 mm bullet connectors (male).
     You will need to solder the female bullet connectors onto the 3 loose wires
     coming out of the ESC and insulate them with some thermal shrink fit.
-
+   <p align="center">
     <kbd>
-      <img src="../../img/assembly/ESC_real.jpg">
+      <img src="../../img/assembly/ESC_real.jpg" width=400>
     </kbd>
+    </p>
 
  2. Add thermal shrink fit over the ESC's for insulation / protection.
       1. Note that we used the clear thermal fit on the CW ESC's and the black on the
@@ -42,10 +45,11 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
  3. Solder the loose ESC power-in cables to the open terminals on the underside of the
     Q380 drone frame bottom plate, where the arm connects to the bottom plate.
     1. Red -> Positive | Black -> Negative
-
+   <p align="center">
     <kbd>
-      <img src="../../img/assembly/ESC_solder.jpg">
+      <img src="../../img/assembly/ESC_solder.jpg" width=300>
     </kbd>
+    </p>
 
  4. In the [Sensor Plate Assembly](sensor_plate.md) instructions, you will add an
     extension to the PWM connection cable, so you can leave this cable loose for now.
@@ -64,10 +68,11 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
     so you would experience self-loosening on two of the motors if you didn't
     use the purchased adapter kit.
     Select motor locations so the prop nuts will be self-tightening, based on:
-
+   <p align="center">
     <kbd>
-      <img src="../../img/assembly/prop_nut_spin.jpg">
+      <img src="../../img/assembly/prop_nut_spin.jpg" width=300>
     </kbd>
+    </p>
 
  2. If using the purchased propeller guards (as recommended),
     the two outermost screws will need to go through the guard
@@ -78,18 +83,19 @@ propeller spin direction for a Quad X multi-rotor copter like ours.
     as seen above
     1. MAKE SURE THE SCREWS ARE NOT CONTACTING THE MOTOR WINDINGS!
        This would be catastrophic for the motors.
-
+   <p align="center">
     <kbd>
-      <img src="../../img/assembly/motor_mount_underside.jpg">
-      Motor mounting, seen from the underside
+      <img src="../../img/assembly/motor_mount_underside.jpg" width=300>
     </kbd>
+    </p>
 
  4. Connect the motor leads to the ESC's with the bullet connectors,
     as seen below.
-
+   <p align="center">
     <kbd>
-      <img src="../../img/assembly/ESC_connection.jpg">
+      <img src="../../img/assembly/ESC_connection.jpg" width=200>
     </kbd>
+    </p>
 
  5. Use one small zip tie to secure the ESC against the inside of the Q380 arm and
     another to hold the wires together, also secured to the inside of the Q380 arm.

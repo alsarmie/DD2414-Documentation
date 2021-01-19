@@ -54,9 +54,11 @@ to clear enough space for the large battery form factor.
   * 8x M3 x 10 torx scews
   * 8x M3 Nuts
 
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/large-battery-adpater-uninstalled.jpg">
+  <img src="../../img/assembly/large-battery-adpater-uninstalled.jpg" width=400>
 </kbd>
+</p>
 
 ### Procedure
 
@@ -87,9 +89,11 @@ Recommended setting changes for these parts include:
 
   1. Connect the drone frame arms to the lower plate, per instructions in the kit.
      1. Have the side with the centered power terminals on the bottom.
+        <p align="center">
         <kbd>
-          <img src="../../img/assembly/bottom_plate_underside.jpg">
+          <img src="../../img/assembly/bottom_plate_underside.jpg" width=300>
         </kbd>
+        </p>
   2. Attach the bottom of 3D printed adapters to top of Q380 arms with M2.5x12 screws.
      1. Have the screw openings in the printed components facing out.
      2. Stick small screwdriver through top hole to access bottom screw.

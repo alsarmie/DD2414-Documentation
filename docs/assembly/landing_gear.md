@@ -71,14 +71,15 @@ around the vertical part of the arched supports of the Q380 arm.
 See the images below for an example of where/how the landing gear
 clips to the Q380 arms.
 
+<p align="center">
 <kbd>
-  <img src="../../img/assembly/landing_gear_to_Q380-1.jpg">
+  <img src="../../img/assembly/landing_gear_to_Q380-1.jpg" width=250>
 </kbd>
 
 <kbd>
-  <img src="../../img/assembly/landing_gear_to_Q380-2.jpg">
+  <img src="../../img/assembly/landing_gear_to_Q380-2.jpg" width=250>
 </kbd>
-
+</p>
 Note that this is an example clip, not the actual clip on the main leg of the landing gear.
 
 Use one of the large zip ties to secure the landing gear to the arm.
