@@ -163,8 +163,13 @@ When mounting the marker balls, consider:
     This could cause orientation ambiguity in the MoCap's estimate of the
     drone's 6 DOF position.
  2. The markers should be visible from as many directions at a time as possible
- 3. It is easy to distribute the markers in the X & Y axes, but make sure the markers span
-    multiple planes in the Z axis (vertically) as well.
+ 3. It is recommended to use between 4 and 8 markers on a drone of this size
+ 4. Each "rigid body" should have a unique marker layout so the system
+    doesn't confuse which drone / object it is detecting
+
+See [OptiTrack - Rigid Body Marker Placement](https://v20.wiki.optitrack.com/index.php?title=Rigid_Body_Tracking#Rigid_Body_Marker_Placement) for an overview on marker placement.
+
+If you see the MoCap's position or (more likely) orientation estimate flickering between two poses, then there is likely some ambiguity/symmetry issue in some of your marker placements.
 
 
 

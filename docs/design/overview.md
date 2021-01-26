@@ -27,19 +27,26 @@ The main objective of this project was to improve the existing drone platforms.
  * Isotropic quadcopter
  * Longer flight time (10+ minutes)
  * 600 mm maximum blade tip-to-tip distance
- * Stable flight
+ * Stable flight (designed for indoor mapping & SLAM, not for racing)
  * Heavier & more configurable payloads (3 Intel RealSense cameras & a NUC)
  * Serviceable design for easier maintenance
 
 ### Additional Design Objectives
 
  * Better motor/propeller pairing
- * Better weight distribution (keep center of mass close to the center of the drone)
+    * Larger propellers -> lower motor RPM for same thrust → more efficient & less noise
+ * Better weight distribution
+    * Keep center of mass close to the center of the drone in all directions
  * Better cable management
+    * Ability to tell where cables go and easily change cables/components out
  * Parts that break, rather than bend
+    * Broken 3D printed parts can be quickly replaced
  * Shock absorption for landing gear
+    * Protect sensitive components during hard landings
  * MoCap reflectors
+    * For ground truth localization in certain environments
  * Propeller guards
+    * Withstand collisions with doorways, walls, etc.
 
 ### Mandatory Hardware
 
