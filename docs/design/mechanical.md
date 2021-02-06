@@ -99,8 +99,8 @@ is able to slide relative to the upper component,
 which connects rigidly to the drone frame.
 
 
-With a tensile force 1.3 kg per magnet and 12 magnets (3 per leg x 4 legs),
-the landing gear provides up to 15.6 kg of repelling force upon a crash.
+With a tensile force 1.3 kg per magnet and 12 magnets pairs (3 per leg x 4 legs),
+the landing gear provides up to 31.2 kg of repelling force upon a crash.
 
 This can be seen below in the gif demonstrating a static drop
 test from 50 cm on a hard tile floor.
