@@ -1164,9 +1164,12 @@ to the bottom and top NUC mount components.</p>
     This could cause orientation ambiguity in the MoCap's estimate of the
     drone's 6 DOF position.</li>
 <li>The markers should be visible from as many directions at a time as possible</li>
-<li>It is easy to distribute the markers in the X &amp; Y axes, but make sure the markers span
-    multiple planes in the Z axis (vertically) as well.</li>
+<li>It is recommended to use between 4 and 8 markers on a drone of this size</li>
+<li>Each "rigid body" should have a unique marker layout so the system
+    doesn't confuse which drone / object it is detecting</li>
 </ol>
+<p>See <a href="https://v20.wiki.optitrack.com/index.php?title=Rigid_Body_Tracking#Rigid_Body_Marker_Placement">OptiTrack - Rigid Body Marker Placement</a> for an overview on marker placement.</p>
+<p>If you see the MoCap's position or (more likely) orientation estimate flickering between two poses, then there is likely some ambiguity/symmetry issue in some of your marker placements.</p>
 <h4 id="securing-the-nuc">Securing the NUC</h4>
 <ol>
 <li>Optional: Secure the NUC's ground wire tabs to the bottom of the

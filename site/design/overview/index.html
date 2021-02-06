@@ -302,6 +302,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#perception-sensor-layout" class="md-nav__link">
+    Perception Sensor Layout
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -785,6 +792,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#perception-sensor-layout" class="md-nav__link">
+    Perception Sensor Layout
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -836,19 +850,40 @@
 <li>Isotropic quadcopter</li>
 <li>Longer flight time (10+ minutes)</li>
 <li>600 mm maximum blade tip-to-tip distance</li>
-<li>Stable flight</li>
+<li>Stable flight (designed for indoor mapping &amp; SLAM, not for racing)</li>
 <li>Heavier &amp; more configurable payloads (3 Intel RealSense cameras &amp; a NUC)</li>
 <li>Serviceable design for easier maintenance</li>
 </ul>
 <h3 id="additional-design-objectives">Additional Design Objectives</h3>
 <ul>
-<li>Better motor/propeller pairing</li>
-<li>Better weight distribution (keep center of mass close to the center of the drone)</li>
-<li>Better cable management</li>
-<li>Parts that break, rather than bend</li>
-<li>Shock absorption for landing gear</li>
-<li>MoCap reflectors</li>
-<li>Propeller guards</li>
+<li>Better motor/propeller pairing<ul>
+<li>Larger propellers -&gt; lower motor RPM for same thrust → more efficient &amp; less noise</li>
+</ul>
+</li>
+<li>Better weight distribution<ul>
+<li>Keep center of mass close to the center of the drone in all directions</li>
+</ul>
+</li>
+<li>Better cable management<ul>
+<li>Ability to tell where cables go and easily change cables/components out</li>
+</ul>
+</li>
+<li>Parts that break, rather than bend<ul>
+<li>Broken 3D printed parts can be quickly replaced</li>
+</ul>
+</li>
+<li>Shock absorption for landing gear<ul>
+<li>Protect sensitive components during hard landings</li>
+</ul>
+</li>
+<li>MoCap reflectors<ul>
+<li>For ground truth localization in certain environments</li>
+</ul>
+</li>
+<li>Propeller guards<ul>
+<li>Withstand collisions with doorways, walls, etc.</li>
+</ul>
+</li>
 </ul>
 <h3 id="mandatory-hardware">Mandatory Hardware</h3>
 <ul>
@@ -859,6 +894,19 @@
 <li>1 Y-PWR Hotswap board</li>
 <li>DC/DC converters</li>
 </ul>
+<h3 id="perception-sensor-layout">Perception Sensor Layout</h3>
+<p>With three RealSense cameras
+(1 <a href="https://www.intelrealsense.com/lidar-camera-l515/">L515 LiDAR Camera</a>
+and 2 <a href="https://www.intelrealsense.com/depth-camera-d435i/">D435i Stereo Cameras</a>),
+this drone is designed to provide:</p>
+<ul>
+<li>A 154 degree RGB field of view (FOV)</li>
+<li>A 176 degree depth FOV</li>
+<li>22 degrees of RGB overlap *</li>
+<li>33 degrees of depth overlap *</li>
+<li>40+ degree height FOV from all sensors</li>
+</ul>
+<p>*<em>Between the L515 LiDAR Camera and each D435i stereo camera.</em></p>
                 
               
               

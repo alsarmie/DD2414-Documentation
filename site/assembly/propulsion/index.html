@@ -944,7 +944,9 @@ propeller spin direction for a Quad X multi-rotor copter like ours.</p>
     as seen above</p>
 <ol>
 <li>MAKE SURE THE SCREWS ARE NOT CONTACTING THE MOTOR WINDINGS!
-   This would be catastrophic for the motors.
+   This would be catastrophic for the motors.</li>
+<li>14mm is the max length when using the purchased propeller guards, and shorter screws should be used when not using the
+   purchased propeller guards (~10mm). If you can use a shorter screw and secure the motor through the guard, then definitely do so.
  <br />
 <p align="center">
     <kbd>
@@ -1001,6 +1003,12 @@ as mentioned in <a href="https://docs.px4.io/v1.10/en/config/motors.html">Motor/
 </li>
 <li>Disarm the drone and remove the connected power before making any necessary wiring changes</li>
 </ol>
+<p>If the spin direction of any given motor is backwards, possible causes include:</p>
+<ul>
+<li>The red/blue/black cable order connecting the ESC to the motor is incorrect</li>
+<li>The ESC/motor PWM cable is connected to the wrong port on the Pixhawk</li>
+<li>The ESC/motor PWM cable is flipped in the port on the Pixhawk</li>
+</ul>
 <h3 id="propellers">Propellers</h3>
 <p>The propellers should not be added until:</p>
 <ol>
