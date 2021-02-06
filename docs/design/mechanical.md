@@ -84,3 +84,33 @@ For the actual drone frame, we chose the [Q380](https://www.rcnhobby.com/se/hmf-
   + Increased internal space for additional electronics/equipment
   + Additional mounting holes for frame upgrades
   + Arguably the arm design allows for better CG
+
+
+## Landing Gear Design
+
+As sudden drops and crashes are commonplace in drone research,
+it was desirable to have some level of shock absorption in the landing gear.
+This is to help protect the more critical components from damage during a crash landing.
+
+To accomplish this, we designed and 3D printed custom landing gear with magnetic shock absorption.
+We split the landing gear into two primary components and embedded repelling magnets in each component.
+The lower component, which contacts the ground,
+is able to slide relative to the upper component,
+which connects rigidly to the drone frame.
+
+
+With a tensile force 1.3 kg per magnet and 12 magnets (3 per leg x 4 legs),
+the landing gear provides up to 15.6 kg of repelling force upon a crash.
+
+This can be seen below in the gif demonstrating a static drop
+test from 50 cm on a hard tile floor.
+
+
+<p align="center">
+  <kbd>
+    <img src="../../img/fall_50cm.gif" width=450>
+  </kbd>
+</p>
+
+
+Assembly and all components of the landing gear can be found at [Assembly - Landing Gear](../assembly/landing_gear.md)
