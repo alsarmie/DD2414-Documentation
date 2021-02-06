@@ -15,6 +15,20 @@
 
 > *Heavy boy*
 
+<div class="embed-container">
+  <p align="center">
+    <iframe
+        width="640"
+        height="480"
+        src="https://drive.google.com/file/d/1Fuq0QKfbSe90Fed_5NmO_cHDs2LBIiZK/preview"
+        frameborder="0"
+        allowfullscreen="">
+    </iframe>
+  </p>
+</div>
+
+> *Example Flight*
+
 ## Frequently used links
   + [PX4 Official Site](https://docs.px4.io/master/en/flight_controller/pixhawk4.html)
     + [Pixhawk 4 Pinout](http://www.holybro.com/manual/Pixhawk4-Pinouts.pdf)
