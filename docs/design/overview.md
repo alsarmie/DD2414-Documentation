@@ -56,3 +56,20 @@ The main objective of this project was to improve the existing drone platforms.
  * 1 TeraRanger distance sensor, 1 Optical Flow sensor
  * 1 Y-PWR Hotswap board
  * DC/DC converters
+
+
+### Perception Sensor Layout
+
+With three RealSense cameras
+(1 [L515 LiDAR Camera](https://www.intelrealsense.com/lidar-camera-l515/)
+and 2 [D435i Stereo Cameras](https://www.intelrealsense.com/depth-camera-d435i/)),
+this drone is designed to provide:
+
+ * A 154 degree RGB field of view (FOV)
+ * A 176 degree depth FOV
+ * 22 degrees of RGB overlap *
+ * 33 degrees of depth overlap *
+ * 40+ degree height FOV from all sensors
+
+
+**Between the L515 LiDAR Camera and each D435i stereo camera.*
